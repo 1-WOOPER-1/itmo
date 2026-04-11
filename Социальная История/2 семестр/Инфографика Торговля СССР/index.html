@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/ico/favicon.ico" />
+    <title>ТОРГОВЛЯ СССР</title>
+  </head>
+  <body>
+    <div class="controls">
+      <button class="control-button" id="minimizeBtn">
+        <i class="fa-solid fa-minus"></i>
+      </button>
+      <button class="control-button" id="scaleBtn" style="width: 3.5rem">
+        100%
+      </button>
+      <button class="control-button" id="maximizeBtn">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+    <div class="canvas-wrapper" id="canvasWrapper">
+      <div class="canvas">
+        <div class="side">
+          <h1>1922</h1>
+        </div>
+        <div class="main">
+          <div class="header">
+            <h1>ТОРГОВЛЯ СССР</h1>
+          </div>
+          <div class="main-top">
+            <div class="content">
+              <ul>
+                <li>Введение продналога вместо продразвёрстки</li>
+                <li>Разрешение мелкой частной торговли</li>
+                <li>Привлечение иностранного капитала в форме концессий</li>
+              </ul>
+              <img src="assets/img/NEP_Lenin.png" alt="" />
+              <h2>НЭП</h2>
+            </div>
+            <div class="content">
+              <ul>
+                <li>Создание и ликвидирование торгсинов</li>
+                <li>Появление "чёрного рынка"</li>
+                <li>Введение и отмена карточной системы</li>
+              </ul>
+              <img src="assets/img/Indastrial.png" alt="" />
+              <h2>Сталинская эпоха</h2>
+            </div>
+            <div class="content">
+              <ul>
+                <li>Кукурузная кампания</li>
+                <li>Появление магазинов самообслуживания</li>
+                <li>Появление автоматов по продаже продуктов и напитков</li>
+              </ul>
+              <img src="assets/img/Corn.png" alt="" />
+              <h2>Хрущёвская оттепель</h2>
+            </div>
+            <div class="content">
+              <ul>
+                <li>Усиление товарного дефицита</li>
+                <li>
+                  Регулярное повышение цен на продовольственные и промышленные
+                  товары
+                </li>
+                <li>Развитие нефтегазового комплекса</li>
+              </ul>
+              <img src="assets/img/Economic.png" alt="" />
+              <h2>Период застоя</h2>
+            </div>
+            <div class="content">
+              <ul>
+                <li>Отмена монополии государства на внешнюю торговлю</li>
+                <li>Введение талонов на основные товары потребления</li>
+                <li>Принятие закона о кооперативах</li>
+              </ul>
+              <img src="assets/img/Rebuilding.png" alt="" />
+              <h2>Перестройка</h2>
+            </div>
+          </div>
+          <div class="history-line">
+            <h2>1928</h2>
+            <h2>1953</h2>
+            <h2>1964</h2>
+            <h2>1985</h2>
+          </div>
+          <div class="main-bottom">
+            <img
+              src="assets/img/background.png"
+              alt=""
+              style="
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                bottom: 10rem;
+              "
+            />
+            <div class="chart">
+              <p style="text-align: center">Общественное питание, млн. руб.</p>
+              <img src="assets/img/chart(1).png" alt="" style="width: 100%" />
+              <div class="legend">
+                <div
+                  class="legend-marker"
+                  style="background-color: #4a639a"
+                ></div>
+                <p>Товарооборот</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #cf0e04"
+                ></div>
+                <p>Продукция собственного производства</p>
+              </div>
+            </div>
+            <div class="chart">
+              <p style="text-align: center">
+                Розничный товарооборот, млрд. руб.
+              </p>
+              <img src="assets/img/chart(2).png" alt="" style="width: 100%" />
+              <div class="legend">
+                <div
+                  class="legend-marker"
+                  style="background-color: #4a639a"
+                ></div>
+                <p>Государственная торговля</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #cf0e04"
+                ></div>
+                <p>Потребительская кооперация</p>
+              </div>
+            </div>
+            <div class="chart">
+              <p style="text-align: center">Доля форм торговли, %</p>
+              <div class="chart-content">
+                <div class="chart-columns">
+                  <div
+                    class="chart-column"
+                    style="height: 7.4rem; background-color: #4a639a"
+                  >
+                    <p>30.1</p>
+                  </div>
+                  <div
+                    class="chart-column"
+                    style="height: 15.4rem; background-color: #73917a"
+                  >
+                    <p>53.4</p>
+                  </div>
+                  <div
+                    class="chart-column"
+                    style="height: 2.7rem; background-color: #ded3ad"
+                  >
+                    <p>16.5</p>
+                  </div>
+                </div>
+                <div class="chart-columns">
+                  <div
+                    class="chart-column"
+                    style="height: 18.7rem; background-color: #4a639a"
+                  >
+                    <p>62.7</p>
+                  </div>
+                  <div
+                    class="chart-column"
+                    style="height: 4.9rem; background-color: #73917a"
+                  >
+                    <p>23</p>
+                  </div>
+                  <div
+                    class="chart-column"
+                    style="height: 1.9rem; background-color: #ded3ad"
+                  >
+                    <p>14.3</p>
+                  </div>
+                </div>
+                <p>1932 г.</p>
+                <p>1940 г.</p>
+              </div>
+              <div
+                class="legend"
+                style="display: grid; grid-template-columns: 3% 47% 3% 47%"
+              >
+                <div
+                  class="legend-marker"
+                  style="background-color: #4a639a"
+                ></div>
+                <p>Государственная торговля</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #73917a"
+                ></div>
+                <p>Кооперативная торговля</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #ded3ad"
+                ></div>
+                <p>Колхозный рынок</p>
+              </div>
+            </div>
+            <div class="chart">
+              <p style="text-align: center">Товарная структура экспорта, %</p>
+              <img src="assets/img/chart(3).png" alt="" style="width: 100%" />
+              <div class="legend">
+                <div
+                  class="legend-marker"
+                  style="background-color: #4a639a"
+                ></div>
+                <p>Машины и оборудование</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #cf0e04"
+                ></div>
+                <p>Топливо и электроэнергия</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #73917a"
+                ></div>
+                <p>Лесоматериалы и целлюлозно-бумажные изделия</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #ded3ad"
+                ></div>
+                <p>Продовольственные товары и сырьё для их производства</p>
+              </div>
+            </div>
+            <div class="chart">
+              <p style="text-align: center">Товарная структура импорта, %</p>
+              <img src="assets/img/chart(4).png" alt="" style="width: 100%" />
+              <div class="legend">
+                <div
+                  class="legend-marker"
+                  style="background-color: #4a639a"
+                ></div>
+                <p>Машины и оборудование</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #cf0e04"
+                ></div>
+                <p>Топливо и электроэнергия</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #73917a"
+                ></div>
+                <p>Лесоматериалы и целлюлозно-бумажные изделия</p>
+                <div
+                  class="legend-marker"
+                  style="background-color: #ded3ad"
+                ></div>
+                <p>Продовольственные товары и сырьё для их производства</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side">
+          <h1>1991</h1>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/ce92fb6fc5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

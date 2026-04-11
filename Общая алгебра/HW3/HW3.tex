@@ -1,0 +1,281 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[a4paper, left=1cm, right=1cm, top=1.27cm, bottom=1.27cm]{geometry}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{caption}
+
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\geometry{margin=2cm}
+
+
+\begin{document}
+
+\begin{flushright}
+    Пахомов Владимир Юрьевич, 467036
+\end{flushright}
+
+\begin{center}
+    \textbf{Домашнее задание №3}
+\end{center}
+
+\begin{flushleft}
+    \textbf{Задание 1} \\
+    Условие: \\
+     Докажите, что $x^2 + x + 1$ неприводим над полем $\mathbb{F} = \mathbb{Z}/p$, где $p \equiv 2 \; \; (mod \; 3) \; -$ простое число
+     
+    
+    \vspace{20pt}
+    \textbf{Решение}: \\
+    Многочлен неприводим тогда и только тогда, когда он не имеет корней в этом поле. \\
+    Домножим многочлен на $(x-1)$ \\
+    \[ (x - 1)(x^2 + x + 1) = x^3 - 1\]
+    Получается корень существует, когда существует элемент порядка 3. \\
+    По Малой теореме Ферма, порядок любого элемента мультипликативной группы поля $\mathbb{Z}/p$ должен делить порядок группы, который равен $p-1$. Нам дано, что $p \equiv 2 \; \; (mod \; 3)$, или же $p = 3k+2$. \\
+    Тогда порядок группы: $|F^*| = p-1=3k+2-1=3k+1$.
+    Число 3 не делит $3k+1$. Следовательно, в поле $\mathbb{Z}/p$ не существует элементов порядка 3. Получается у многочлена нет корней, значит, он неприводим.
+\end{flushleft}
+
+
+\newpage
+
+
+\begin{flushleft}
+    \textbf{Задание 2} \\
+    Условие: \\
+    Доказать, что $x^{2n} + x^n + 1$ неприводим над $\mathbb{F}_2$ тогда и только тогда, когда $n = 3k, \; k \in \mathbb{N} \cup {0}$ \\
+    
+    \vspace{20pt}
+    \textbf{Решение}: \\
+    В поле характеристики 2 выполняется тождество $(a+1)(a^2+a+1) = a^3+1$. Полагая $a = x^n$, получаем:
+    \[ (x^n + 1)(x^{2n} + x^n + 1) = x^{3n} + 1 \quad \Rightarrow \]
+    \[ x^{2n} + x^n + 1 = \frac{x^{3n} + 1}{x^n + 1} \]
+    
+    Известно, что над конечным полем многочлен $x^N + 1$ (так как $x^N - 1 = x^N + 1$ в $\mathbb{F}_2$) раскладывается в произведение круговых многочленов:
+    \[ x^N + 1 = \prod_{d | N} \Phi_d(x) \]
+    Тогда:
+    \[ x^{2n} + x^n + 1 = \frac{\prod_{d | 3n} \Phi_d(x)}{\prod_{d | n} \Phi_d(x)} \quad \Rightarrow \]
+    \[ x^{2n} + x^n + 1 = \prod_{\substack{d | 3n \\ d \nmid n}} \Phi_d(x) \]
+
+    Пусть $n = 3^k \cdot m$, где $\gcd(m, 3) = 1$. Тогда $3n = 3^{k+1} \cdot m$.
+    Делитель $d$ числа $3n$ имеет вид $d = 3^j \cdot d'$, где $0 \le j \le k+1$ и $d' | m$.
+    Условие $d \nmid n$ означает, что степень тройки в $d$ должна быть строго больше степени тройки в $n$. То есть должно выполняться $j = k+1$.
+
+    Таким образом:
+    \[ D = \{ 3^{k+1} d' \mid d' \text{ --- делитель } m \} \]
+    \[ x^{2n} + x^n + 1 = \prod_{d' | m} \Phi_{3^{k+1} d'}(x) \]
+    Многочлен неприводим тогда и только тогда, когда в этом произведении ровно один неприводимый сомножитель.
+    \begin{itemize}
+        \item Если $m > 1$, то у $m$ есть как минимум два делителя (например, $1$ и $m$), и произведение содержит несколько круговых многочленов (каждый из которых имеет степень $\ge 1$). Значит, многочлен приводим.
+        \item Следовательно, для неприводимости необходимо, чтобы $m = 1$. Это означает, что $n = 3^k$.
+    \end{itemize}
+
+    Пусть $n = 3^k$. Тогда в произведении остается единственный множитель:
+    \[ x^{2n} + x^n + 1 = \Phi_{3^{k+1}}(x) \]
+    Нам нужно проверить, является ли круговой многочлен $\Phi_{3^{k+1}}(x)$ неприводимым над $\mathbb{F}_2$.
+    Согласно критерию неприводимости круговых многочленов над $\mathbb{F}_q$, $\Phi_M(x)$ неприводим над $\mathbb{F}_2$, если мультипликативный порядок числа $2$ по модулю $M$ равен $\phi(M)$.
+    В нашем случае $M = 3^{k+1}$
+    \[ \phi(3^{k+1}) = 3^{k+1} - 3^k = 2 \cdot 3^k \]
+    Из теории чисел известно, что $2$ является первообразным корнем по модулю $3^k$ для всех $k \ge 1$. Следовательно, порядок $2$ по модулю $3^{k+1}$ равен $\phi(3^{k+1})$. \\
+    Многочлен $\Phi_{3^{k+1}}(x)$ неприводим над $\mathbb{F}_2$. Следовательно, исходный многочлен неприводим тогда и только тогда, когда $n = 3^k$.
+
+
+\end{flushleft}
+
+
+\newpage
+
+
+\begin{flushleft}
+    \textbf{Задание 3} \\
+    Условие: \\
+    Найти минимальный многочлен элемента $\alpha^3 + \alpha^2$ конечного поля $\mathbb{GF}(2^6)$ =
+    $\mathbb{F}_2 [\alpha]$, где $\alpha: f (\alpha) = \alpha^6 + \alpha^3 + 1 = 0 $ \\
+    
+    \vspace{20pt}
+    \textbf{Решение}: \\
+    Работа ведется в поле характеристики 2, поэтому сложение эквивалентно операции XOR ($+$ то же самое, что $-$).
+    Из уравнения $f(\alpha) = \alpha^6 + \alpha^3 + 1 = 0$ следует основное соотношение для понижения степеней: $\alpha^6 = \alpha^3 + 1$ \\
+
+    Вычислим старшие степени $\alpha$, которые понадобятся при раскрытии скобок:
+    \begin{itemize}
+    \item $\alpha^6 = \alpha^3 + 1 $ \\
+    \item $\alpha^7 = \alpha(\alpha^3 + 1) = \alpha^4 + \alpha $ \\
+    \item $\alpha^8 = \alpha(\alpha^4 + \alpha) = \alpha^5 + \alpha^2 $ \\
+    \item $\alpha^{10} = \alpha^4 \cdot \alpha^6 = \alpha^4(\alpha^3+1) = \alpha^7 + \alpha^4 = (\alpha^4+\alpha) + \alpha^4 = \alpha $ \\
+    \end{itemize}
+
+    Представим степени $\beta$ в базисе $\{1, \; \alpha, \; \alpha^2, \; \alpha^3, \; \alpha^4, \; \alpha^5\}$.
+
+    \begin{enumerate}
+        \item $\beta^0 = 1$
+        \item $\beta^1 = \alpha^3 + \alpha^2$
+        \item $\beta^2 = (\alpha^3 + \alpha^2)^2 = \alpha^6 + \alpha^4 = (\alpha^3 + 1) + \alpha^4 = \alpha^4 + \alpha^3 + 1 $ \\
+        \item $\beta^3 = \beta \cdot \beta^2 = (\alpha^3 + \alpha^2)(\alpha^4 + \alpha^3 + 1)$ \\
+        $$ \beta^3 = \alpha^7 + \alpha^6 + \alpha^3 + \alpha^6 + \alpha^5 + \alpha^2 = \alpha^7 + \alpha^5 + \alpha^3 + \alpha^2 $$
+        (так как $2\alpha^6 = 0$). Подставляем $\alpha^7$:
+        $$ \beta^3 = (\alpha^4 + \alpha) + \alpha^5 + \alpha^3 + \alpha^2 = \alpha^5 + \alpha^4 + \alpha^3 + \alpha^2 + \alpha $$
+        
+        \item $\beta^4 = (\beta^2)^2 = (\alpha^4 + \alpha^3 + 1)^2 = \alpha^8 + \alpha^6 + 1 = (\alpha^5 + \alpha^2) + (\alpha^3 + 1) + 1 = \alpha^5 + \alpha^3 + \alpha^2 $\\
+        \item $\beta^5 = \beta \cdot \beta^4 = (\alpha^3 + \alpha^2)(\alpha^5 + \alpha^3 + \alpha^2) = \alpha^8 + \alpha^6 + \alpha^5 + \alpha^7 + \alpha^5 + \alpha^4$. \\
+        Сокращаем $2\alpha^5$ и подставляем значения:
+        $$ \beta^5 = (\alpha^5 + \alpha^2) + (\alpha^4 + \alpha) + (\alpha^3 + 1) + \alpha^4 = \alpha^5 + \alpha^3 + \alpha^2 + \alpha + 1 $$
+        
+        \item $\beta^6 = (\beta^3)^2 = (\alpha^5 + \alpha^4 + \alpha^3 + \alpha^2 + \alpha)^2 = \alpha^{10} + \alpha^8 + \alpha^6 + \alpha^4 + \alpha^2 = $ \\
+        $ = \alpha + (\alpha^5 + \alpha^2) + (\alpha^3 + 1) + \alpha^4 + \alpha^2 = \alpha^5 + \alpha^4 + \alpha^3 + \alpha + 1 $ \\
+    \end{enumerate}
+
+    Запишем полученные элементы как векторы коэффициентов при степенях $(\alpha^5, \; \alpha^4, \; \alpha^3, \; \alpha^2, \; \alpha^1, \; \alpha^0)$:
+
+    \begin{align*}
+        \beta^6 &= (1, 1, 1, 0, 1, 1) \\
+        \beta^5 &= (1, 0, 1, 1, 1, 1) \\
+        \beta^4 &= (1, 0, 1, 1, 0, 0) \\
+        \beta^3 &= (1, 1, 1, 1, 1, 0) \\
+        \beta^2 &= (0, 1, 1, 0, 0, 1) \\
+        \beta^1 &= (0, 0, 1, 1, 0, 0) \\
+        \beta^0 &= (0, 0, 0, 0, 0, 1)
+    \end{align*}
+
+    Составим линейную комбинацию, обнуляющую старшие разряды: \\
+    1. Сложим $\beta^6$ и $\beta^5$, чтобы убрать $\alpha^5$:
+    $$ \beta^6 + \beta^5 = (0, 1, 0, 1, 0, 0) \quad (\text{это } \alpha^4 + \alpha^2) $$
+    2. Чтобы убрать $\alpha^4$, добавим $\beta^2$ (у него есть 1 на позиции $\alpha^4$):
+    $$ (\beta^6 + \beta^5) + \beta^2 = (0, 1, 0, 1, 0, 0) + (0, 1, 1, 0, 0, 1) = (0, 0, 1, 1, 0, 1) $$
+    Это соответствует $\alpha^3 + \alpha^2 + 1$ \\
+    3. Чтобы убрать $\alpha^3$ и $\alpha^2$, добавим $\beta^1 = \alpha^3 + \alpha^2$:
+    $$ (\beta^6 + \beta^5 + \beta^2) + \beta^1 = (0, 0, 1, 1, 0, 1) + (0, 0, 1, 1, 0, 0) = (0, 0, 0, 0, 0, 1) $$
+    Остался вектор $(0, 0, 0, 0, 0, 1)$, который равен $\beta^0 = 1$.
+    4. Добавим $\beta^0$:
+    $$ \beta^6 + \beta^5 + \beta^2 + \beta^1 + \beta^0 = 0 $$
+    Тогда минимальный многочлен для элемента $\alpha^3 + \alpha^2$:
+    $$x^6 + x^5 + x^2 + x + 1 $$
+
+\end{flushleft}
+
+
+\newpage
+
+
+\begin{flushleft}
+    \textbf{Задание 4} \\
+    Условие: \\
+    Рассмотрим линейный [7, 4]-код над $\mathbb{Z}_2$ с порождающей матрицей: \\
+    G = 
+    $\begin{pmatrix}
+        1 & 0 & 0 & 0 & 1 & 1 & 0 \\
+        0 & 1 & 0 & 0 & 1 & 0 & 1 \\
+        0 & 0 & 1 & 0 & 0 & 1 & 1 \\
+        0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+    \end{pmatrix}$ \\
+    \begin{itemize}
+        \item Найдите проверочную матрицу H для этого кода
+        \item Закодируйте сообщение $u$ = (1 0 1 1)
+        \item Постройте таблицу синдромов и декодируйте сообщение
+            \[ v = \begin{pmatrix}
+                1 & 0 & 1 & 1 & 0 & 0 & 1 \\
+            \end{pmatrix} \]
+    \end{itemize}
+    если известно, что ошибка произошла не более чем в одном бите.
+
+    \vspace{20pt}
+    \textbf{Решение}: \\
+    $G = [I_4 \; | \; P] $, где \\ \[P =
+    \begin{pmatrix}
+        1 & 1 & 0 \\
+        1 & 0 & 1 \\
+        0 & 1 & 1 \\
+        1 & 1 & 1 \\
+    \end{pmatrix} \]
+    Тогда $H = [P^T \; | \; I_3]$:
+    \[ H =
+    \begin{pmatrix}
+        1 & 1 & 0 & 1 & 1 & 0 & 0 \\
+        1 & 0 & 1 & 1 & 0 & 1 & 0 \\
+        0 & 1 & 1 & 1 & 0 & 0 & 1 \\
+    \end{pmatrix} \]
+
+    Кодовое слово $c = uG$:
+    \[ c = \begin{pmatrix}
+        1 & 0 & 1 & 1 \\
+    \end{pmatrix} \cdot G =  \begin{pmatrix}
+        1 & 0 & 1 & 1 & 0 & 1 & 0 \\
+    \end{pmatrix} \]
+
+    Таблица синдромов декодирования: \\
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            Синдром s & Позиция ошибки \\
+            \hline
+            000	& нет ошибки \\
+            110	& 1 \\
+            101	& 2 \\
+            011	& 3 \\
+            111	& 4 \\
+            100	& 5 \\
+            010	& 6 \\
+            001	& 7 \\
+            \hline
+        \end{tabular}
+    \end{table}
+
+    \[ s = Hv^T = \begin{pmatrix}
+        0 & 1 & 1
+    \end{pmatrix} \]
+    По таблице синдромов 001 соответствует ошибке в позиции 3. Исправление ошибки: \\
+    \[ c' = \begin{pmatrix}
+        1 & 0 & 0 & 1 & 0 & 0 & 1 \\
+    \end{pmatrix} \qquad  v = \begin{pmatrix}
+        1 & 0 & 0 & 1 \\
+    \end{pmatrix}\]
+
+\end{flushleft}
+
+
+\newpage
+
+
+\begin{flushleft}
+    \textbf{Задание 5} \\
+    Условие: \\
+    Построить порождающий многочлен для БЧХ кода $(7, 3, 4)_8$ \\
+
+    \vspace{20pt}
+    \textbf{Решение}: \\
+    Код задана параметрами $(n, k, d)_q$, где $n=7, \; k=3, \; d=4, \; q=8$ \\
+    Степерь порождающего многочлена $deg \; g(x) = n - k = 7 - 3 = 4$ \\
+    Построим поле $GF(2^3)$ с помощью примитивного многочлена. Пусть $\alpha$ примитивный элемент поля, то есть корень уравнения $\alpha^3 + \alpha + 1 = 0 \;  (\alpha^3 = \alpha + 1) $\\
+    Элементы поля $GF(8)$: \\
+    \begin{itemize}
+        \item 0 
+        \item 1
+        \item $\alpha$
+        \item $\alpha^2$
+        \item $\alpha^3 = \alpha + 1$
+        \item $\alpha^4 = \alpha^2 + \alpha$
+        \item $\alpha^5 = \alpha^2 + \alpha + 1$
+        \item $\alpha^6 = \alpha^2 + 1$
+    \end{itemize}
+    Корни: $\alpha, \; \alpha^2, \; \alpha^3, \; \alpha^4$ \\
+    \[ g(x) = (x - \alpha)(x - \alpha^2)(x - \alpha^3)(x - \alpha^4) \]
+    В поле характеристики вычитание эквивалентно сложению: \\
+    \[ g(x) = (x + \alpha)(x + \alpha^2)(x + \alpha^3)(x + \alpha^4) \]
+    Первая пара: \\
+    \[ (x + \alpha)(x + \alpha^2) = x^2 + (\alpha + \alpha^2)x + \alpha^3 = x^2 + \alpha^4x + \alpha^3 \]
+    Вторая пара: \\
+    \[ (x - \alpha^3)(x - \alpha^4) = x^2 + (\alpha^3 + \alpha^4)x + \alpha^7 = x^2 + \alpha^6x + 1 \]
+    Получается: \\
+    \[ g(x) = (x^2 + \alpha^4x + \alpha3)(x^2 + \alpha^6x + 1) = x^4 + \alpha^3x^3 + x^2 + \alpha x + \alpha^3 \]
+\end{flushleft}
+
+\end{document}
+

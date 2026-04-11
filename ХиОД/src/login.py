@@ -1,0 +1,5 @@
+dbname = "dbstud"
+user = "bk_467036_2025"
+password = "bk_467036"
+host = "postgrepro.dc-edu.ru"
+port = "5432"

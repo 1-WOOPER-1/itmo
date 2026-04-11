@@ -1,0 +1,408 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[a4paper, left=1cm, right=1cm, top=1.27cm, bottom=1.27cm]{geometry}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{caption}
+\onehalfspacing
+
+
+\begin{document}
+
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.5} % Увеличиваем межстрочный интервал
+    \begin{tabular}{|m{11cm}|m{6cm}|} % Первая колонка шире, вторая для лого
+        \hline
+        \begin{center}
+            \textbf{Университет ИТМО}\\
+            \textbf{Физико-технический мегафакультет}\\
+            \textbf{Физический факультет}
+        \end{center} 
+        & 
+        \begin{center}
+            \includegraphics[height=1.3cm]{logo.jpg}
+        \end{center} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{2pt}}
+
+\vspace{10pt}
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.7}
+    \begin{tabular}{|p{4cm}p{4cm}|p{8cm}|}
+        \hline
+        Группа N3150 & & К работе допущен \underline{\hspace{4cm}} \\
+        \hline
+        Студенты & \hfill \multirow[0pt]{3}{*}{\makecell[c]{Пахомов В.Ю \\ Фармахини Ф.Р. \\ Петров Д.О}}  & Работа выполнена \underline{\hspace{4cm}} \\
+        & & \\
+        & & \\
+        \hline
+        \multicolumn{2}{|c|}{Преподаватель \underline{\hspace{5cm}}}  & Отчет принят \underline{\hspace{5cm}} \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{center}
+    \fontsize{20pt}{21.5pt} \selectfont
+    \textbf{Рабочий протокол и отчет по}\\
+    \textbf{лабораторной работе № 2.01}
+\end{center}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+
+\begin{flushleft}
+    1. Цель работы.\\
+    \hspace{0.63cm}1) Экспериментальная проверка уравнения состояния идеального газа. \\
+    \hspace{0.63cm}2) Определение температуры абсолютного нуля по шкале Цельсия. \\
+\end{flushleft}
+
+\begin{flushleft}
+    2. Задачи, решаемые при выполнении работы.\\
+    \hspace{0.63cm}1) Получить зависимости давления $p(V_c)$ при различных температурах $t$. \\
+    \hspace{0.63cm}2) Построить графики зависимости $V_c(1/p)$ при различных
+    температурах и $p(T)$ при разных значениях $V_c$. \\
+\end{flushleft}
+
+\begin{flushleft}
+    3. Объект исследования. \\
+\end{flushleft}
+
+\begin{flushleft}
+    4. Метод экспериментального исследования. \\
+    \hspace{0.63cm}1) Изотермические процессы (закон Бойля-Мариотта) \\
+    Измерение зависимости давления $p$ от объёма $V$ при фиксированных
+    температурах (20–60°C). \\
+    \hspace{0.63cm}2) Изохорные процессы (закон Шарля) \\
+    Измерение зависимости давления $p$ от температуры $t$ при постоянных объёмах.
+
+\end{flushleft}
+
+\begin{flushleft}
+    5. Рабочие формулы и исходные данные. \\
+    $ p = p_0 + \frac{\Delta p_1 + \Delta p_2}{2} $ \\
+    $ K = \frac{\Delta V_{c}}{\Delta (1/p)} = V_c \cdot p $ \\
+    $ K = \frac{1}{D} \sum^N_{i=1}(X_i - \bar{X})Y_i, C = \bar{Y} - K\bar{X} $ \\
+    $ X = 1/p, Y = V_c, \bar{X} $ и $ \bar{Y} $ - средние значения, $ D = \sum(X_i - \bar{X})^2 $ \\
+    $ \Delta K = \sqrt{\frac{E}{D}}, E = \frac{1}{N-2}\sum^N_{i=1}(Y_i-KX_i-C)^2 $ \\
+    $ t_* = -\frac{C}{A} $ \\
+    $ \Delta t_* = t_* \sqrt{(\frac{\Delta A}{A})^2 + (\frac{\Delta C}{C})^2} $ \\
+    $ A = \frac{1}{D} \sum_{i=1}^{N} (X_i - \bar{X}) Y_i, \quad C = \bar{Y} - A \bar{X} \label{eq:16} $ \\
+    $ \bar{X} = \frac{1}{N} \sum_{i=1}^{N} X_i, \quad \bar{Y} = \frac{1}{N} \sum_{i=1}^{N} Y_i, \quad D = \sum_{i=1}^{N} (X_i - \bar{X})^2 $ \\
+\end{flushleft}
+
+\begin{flushleft}
+    6. Измерительные приборы. \\
+    \begin{table}[h]
+        \centering
+        \renewcommand{\arraystretch}{1.5}
+        {\itshape
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline
+            № п/п & Наименование & Тип прибора & Используемый диапазон & Погрешность прибора\\
+            \hline
+            1 & ПКЦ-3 & Электронный & 0-99.99° & ±0.01° \\
+            \hline
+            2 & Цилиндр с поршнем & Механический & 50-120мл & ±0.1мл \\
+            \hline
+            3 & Барометр & Механический & 80-106 Па & ±1 Па \\
+            \hline
+        \end{tabular}
+        }
+    \end{table}
+\end{flushleft}
+
+\begin{flushleft}
+    7. Схема установки. \\
+    \includegraphics[height=8cm]{schema.png} \\
+    \hspace{0.63cm}1)	цилиндр с поршнем \\
+    \hspace{0.63cm}2)	опорная площадка цилиндра \\
+    \hspace{0.63cm}3)	термостат \\
+    \hspace{0.63cm}4)	щуп с датчиком температуры \\
+    \hspace{0.63cm}5)	манометрический датчик \\
+    \hspace{0.63cm}6)	стенд \\
+    \hspace{0.63cm}7)	преобразователь сигналов \\
+    \hspace{0.63cm}8)	измерительный прибор ПКЦ-3 \\
+    \hspace{0.63cm}9)	кружка \\
+    \hspace{0.63cm}10)	поддон \\
+    \hspace{0.63cm}11)	лопатка \\
+\end{flushleft}
+
+\begin{flushleft}
+    8. Результаты прямых измерений и их обработки. \\
+    $p_0$ = 102.9 кПа \\
+    \newpage
+
+    \begin{center}
+        \textbf{Таблица 1.1. Зависимость давления от объема при температуре $ t_1 = 21.7^\circ C $} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            № п.п. & $ V_u $, мл & $ \Delta p_1 $, кПа & $ \Delta p_2 $, кПа & $ p $, кПа & $ 1/p $, кПа \\
+            \hline
+            1  & 50  & 53.4  & 53.4  & 156.3 & 0.00640 \\
+            \hline
+            2  & 60  & 28.0  & 28.6  & 131.5 & 0.00760 \\
+            \hline
+            3  & 70  & 10.3  & 12.8  & 114.0 & 0.00877 \\
+            \hline
+            4  & 80  & -3.7  & -0.1  & 99.6  & 0.01004 \\
+            \hline
+            5  & 90  & -13.9 & -12   & 89.0  & 0.01124 \\
+            \hline
+            6  & 100 & -22.2 & -21.5 & 80.2  & 0.01247 \\
+            \hline
+            7  & 110 & -28.7 & -28.7 & 73.2  & 0.01366 \\
+            \hline
+            8  & 120 & -35.2 & -35.2 & 66.7  & 0.01499 \\
+            \hline
+        \end{tabular}    
+    \end{table} 
+    
+    \begin{center}
+        \textbf{Таблица 1.2. Зависимость давления от объема при температуре $ t_2 = 30.5^\circ C $} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            № п.п. & $ V_u $, мл & $ \Delta p_1 $, кПа & $ \Delta p_2 $, кПа & $ p $, кПа & $ 1/p $, кПа \\
+            \hline
+            1  & 50  & 53.5  & 53.5  & 156.4 & 0.00639 \\
+            \hline
+            2  & 60  & 29.5  & 33.3  & 132.9 & 0.00752 \\
+            \hline
+            3  & 70  & 12.0  & 15.5  & 115.2 & 0.00868 \\
+            \hline
+            4  & 80  & -0.8  & 0.8   & 102.9 & 0.00972 \\
+            \hline
+            5  & 90  & -11.5 & -10.5 & 91.4  & 0.01094 \\
+            \hline
+            6  & 100 & -19.1 & -20.1 & 82.4  & 0.01214 \\
+            \hline
+            7  & 110 & -27.2 & -27.3 & 74.7  & 0.01339 \\
+            \hline
+            8  & 120 & -33.5 & -33.5 & 68.4  & 0.01462 \\
+            \hline
+        \end{tabular}    
+    \end{table}
+
+    \begin{center}
+        \textbf{Таблица 1.3. Зависимость давления от объема при температуре $ t_3 = 40.7^\circ C $} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            № п.п. & $ V_u $, мл & $ \Delta p_1 $, кПа & $ \Delta p_2 $, кПа & $ p $, кПа & $ 1/p $, кПа \\
+            \hline
+            1  & 50  & 56.0  & 56.0  & 158.9 & 0.00629 \\
+            \hline
+            2  & 60  & 33.4  & 33.5  & 136.4 & 0.00733 \\
+            \hline
+            3  & 70  & 14.8  & 16.5  & 117.1 & 0.00854 \\
+            \hline
+            4  & 80  & 2.7   & 2.5   & 104.1 & 0.00961 \\
+            \hline
+            5  & 90  & -3.3  & -8.5  & 95.1  & 0.01052 \\
+            \hline
+            6  & 100 & -17.9 & -18.0 & 84.0  & 0.01190 \\
+            \hline
+            7  & 110 & -25.0 & -25.3 & 76.6  & 0.01305 \\
+            \hline
+            8  & 120 & -32.3 & -32.3 & 69.6  & 0.01437 \\
+            \hline
+        \end{tabular}    
+    \end{table}
+
+    \newpage
+    \begin{center}
+        \textbf{Таблица 1.4. Зависимость давления от объема при температуре $ t_4 = 49.8^\circ C $} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            № п.п. & $ V_u $, мл & $ \Delta p_1 $, кПа & $ \Delta p_2 $, кПа & $ p $, кПа & $ 1/p $, кПа \\
+            \hline
+            1  & 50  & 62.7  & 62.7  & 165.6 & 0.00604 \\
+            \hline
+            2  & 60  & 38.1  & 36.0  & 139.0 & 0.00719 \\
+            \hline
+            3  & 70  & 18.6  & 19.3  & 120.2 & 0.00832 \\
+            \hline
+            4  & 80  & 4.0   & 4.4   & 106.6 & 0.00938 \\
+            \hline
+            5  & 90  & -7.1  & -6.8  & 95.9  & 0.01043 \\
+            \hline
+            6  & 100 & -16.5 & -14.3 & 87.1  & 0.01148 \\
+            \hline
+            7  & 110 & -23.0 & -22.7 & 79.2  & 0.01263 \\
+            \hline
+            8  & 120 & -30.2 & -30.2 & 71.7  & 0.01395 \\
+            \hline
+        \end{tabular}    
+    \end{table}
+
+    \begin{center}
+        \textbf{Таблица 1.5. Зависимость давления от объема при температуре $ t_5 = 60^\circ C $} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|}
+            \hline
+            № п.п. & $ V_u $, мл & $ \Delta p_1 $, кПа & $ \Delta p_2 $, кПа & $ p $, кПа & $ 1/p $, кПа \\
+            \hline
+            1  & 50  & 68    & 68    & 170.9 & 0.00585 \\
+            \hline
+            2  & 60  & 43    & 44.2  & 146.0 & 0.00685 \\
+            \hline
+            3  & 70  & 24    & 24.3  & 125.6 & 0.00796 \\
+            \hline
+            4  & 80  & 8.5   & 9.7   & 111.1 & 0.00900 \\
+            \hline
+            5  & 90  & -2.8  & -2.1  & 99.5  & 0.01005 \\
+            \hline
+            6  & 100 & -13.2 & -11.6 & 89.1  & 0.01122 \\
+            \hline
+            7  & 110 & -20.1 & -19.8 & 82.0  & 0.01220 \\
+            \hline
+            8  & 120 & -27.5 & -27.5 & 74.4  & 0.01344 \\
+            \hline
+        \end{tabular}    
+    \end{table}
+
+\end{flushleft}
+
+
+\begin{flushleft}
+    9. Расчет результатов косвенных измерений (таблицы, примеры расчетов). \\
+
+    \begin{center}
+        \textbf{Таблица 2. Зависимость углового коэффициента графика Vц(1/p) от температуры газа.} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|}
+            \hline
+            № п.п. & $ t $, $^\circ C $ & $ K $, $ \mu_k $ \\
+            \hline
+            1  & 21.7  & 7983 ± 42 \\
+            \hline
+            2  & 30.5  & 8235 ± 38 \\
+            \hline
+            3  & 40.7  & 8472 ± 45 \\
+            \hline
+            4  & 49.8  & 8716 ± 50 \\
+            \hline
+            5  & 60.0  & 8940 ± 55 \\
+            \hline
+        \end{tabular}
+    \end{table}
+    Температура абсолютного нуля: \\
+    $t_* = -\frac{C}{A} = -298.9 \ ^\circ C $ \\
+    Угловой коэффициент A и свободный член C: \\
+    $ A = 24.95 \ \mu k/^\circ C $ \\
+    $ C = 7457.73 \ \mu k $ \\
+
+    \newpage
+    \begin{center}
+        \textbf{Таблица 3. Зависимость давления газа от температуры при разных значениях объема.} \\
+    \end{center}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+        \hline
+        $ V_c $, мл & 50 & 60 & 70 & 80 & 90 & 100 & 110 & 120 \\
+        \hline
+        $ t, \ ^\circ C $ & \multicolumn{8}{c|}{$p$, кПа} \\
+        \hline
+        21.7 & 156.3 & 131.5 & 114.0 & 99.6  & 89.0  & 80.2  & 73.2  & 66.7 \\
+        \hline
+        30.5 & 156.4 & 132.9 & 115.2 & 102.9 & 91.4  & 82.4  & 74.7  & 68.4 \\
+        \hline
+        40.7 & 158.9 & 136.4 & 117.1 & 104.1 & 95.1  & 84.0  & 76.6  & 69.6 \\
+        \hline
+        49.8 & 165.6 & 139.0 & 120.2 & 106.6& 95.9 & 87.1 & 79.2 & 71.7 \\
+        \hline
+        60.0 & 170.9 & 146.0 & 125.6 & 111.1& 99.5 & 89.1 & 82.0 & 74.4 \\
+        \hline
+        $ 1/V_c$, мл$^{-1}$ & 0.020 & 0.0167 & 0.0143 & 0.0125 & 0.0111 & 0.0100 & 0.0091 & 0.0083 \\
+        \hline
+        $ t_{*}, \, ^\circ C $ & -361.80 & -332.50 & -360.69 & -336.10 & -313.05 & -320.36 & -293.84 & -319.06 \\
+        \hline
+        \end{tabular}
+    \end{table}
+
+    $ A' \approx -5201.15 $ \\
+    $ C' \approx -263.35 $ \\
+    $ E \approx 243.37 $ \\
+\end{flushleft}
+
+\begin{flushleft}
+    10. Расчет погрешностей измерений (для прямых и косвенных измерений). \\
+    Приборные погрешности: $ \Delta V = 1$ мл, $\Delta p = 0,1 $, кПа \\
+    $ \Delta A = 1.53 \ \mu k/^\circ C $ \\
+    $ \Delta C = 146.3 \ \mu k $ \\
+    $ \Delta C' \approx 19.59 $ \\
+    $ \Delta t_* \approx \Delta C' \approx 19.59 $ \\
+\end{flushleft}
+
+\begin{flushleft}
+    11. Графики (перечень графиков, которые составляют Приложение 2). \\
+    \includegraphics[height=9cm]{chart(1).png} \\
+    \includegraphics[height=9cm]{chart(2).png} \\
+    \includegraphics[height=11cm]{chart(3).png} \\
+\end{flushleft}
+
+\begin{flushleft}
+    12. Окончательные результаты. \\
+    $ A = 24.95 \ \mu k/^\circ C $ \\
+    $ C = 7457.73 \ \mu k $ \\
+    $t_* = -298.9 \ ^\circ C $ \\
+    $\Delta t_* = 19.59  $ \\
+    $ A' \approx -5201.15 $ \\
+    $ C' \approx -263.35 $ \\
+\end{flushleft}
+
+
+\newpage
+
+
+\begin{flushleft}
+    13. Выводы и анализ результатов работы. \\
+    \hspace{0.63cm}На основе проведенных измерений зависимости давления $p$ от рабочего
+    объема $V_c$ при различных температурах $t$ (от 20°C до 60°C) были построены графики
+    $V_c(1/p)$ для разных значений температуры и $p(t)$ для различных объемов.
+    Установлено, что зависимость $V_c(1/p)$ при постоянной температуре является линейной,
+    что подтверждает приближенное соответствие воздуха уравнению состояния идеального
+    газа Менделеева-Клапейрона.
+\end{flushleft}
+
+\begin{flushleft}
+    14. Дополнительные задания. \\
+\end{flushleft}
+
+\begin{flushleft}
+    15. Выполнение дополнительных заданий. \\
+\end{flushleft}
+
+\begin{flushleft}
+    16. Замечания преподавателя (исправления, вызванные замечаниями преподавателя, также помещают в этот пункт). \\
+\end{flushleft}
+
+\end{document}

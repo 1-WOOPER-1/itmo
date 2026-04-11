@@ -1,0 +1,7002 @@
+[
+  {
+    "id": 1,
+    "patient_id": 228,
+    "doctor_id": 30,
+    "date": "2022-01-04",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 2,
+    "patient_id": 58,
+    "doctor_id": 7,
+    "date": "2022-01-05",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 3,
+    "patient_id": 261,
+    "doctor_id": 23,
+    "date": "2022-01-09",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 4,
+    "patient_id": 137,
+    "doctor_id": 14,
+    "date": "2022-01-09",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 5,
+    "patient_id": 36,
+    "doctor_id": 12,
+    "date": "2022-01-10",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 6,
+    "patient_id": 91,
+    "doctor_id": 26,
+    "date": "2022-01-10",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 7,
+    "patient_id": 253,
+    "doctor_id": 16,
+    "date": "2022-01-10",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 8,
+    "patient_id": 193,
+    "doctor_id": 11,
+    "date": "2022-01-10",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 9,
+    "patient_id": 62,
+    "doctor_id": 40,
+    "date": "2022-01-12",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 10,
+    "patient_id": 300,
+    "doctor_id": 33,
+    "date": "2022-01-13",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 11,
+    "patient_id": 76,
+    "doctor_id": 20,
+    "date": "2022-01-13",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 12,
+    "patient_id": 58,
+    "doctor_id": 38,
+    "date": "2022-01-13",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 13,
+    "patient_id": 76,
+    "doctor_id": 11,
+    "date": "2022-01-14",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 14,
+    "patient_id": 56,
+    "doctor_id": 29,
+    "date": "2022-01-15",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 15,
+    "patient_id": 216,
+    "doctor_id": 25,
+    "date": "2022-01-22",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 16,
+    "patient_id": 199,
+    "doctor_id": 39,
+    "date": "2022-01-23",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 17,
+    "patient_id": 215,
+    "doctor_id": 26,
+    "date": "2022-01-25",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 18,
+    "patient_id": 149,
+    "doctor_id": 23,
+    "date": "2022-01-26",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 19,
+    "patient_id": 240,
+    "doctor_id": 20,
+    "date": "2022-01-28",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 20,
+    "patient_id": 187,
+    "doctor_id": 9,
+    "date": "2022-01-28",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 21,
+    "patient_id": 85,
+    "doctor_id": 12,
+    "date": "2022-01-28",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 22,
+    "patient_id": 136,
+    "doctor_id": 7,
+    "date": "2022-01-28",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 23,
+    "patient_id": 227,
+    "doctor_id": 13,
+    "date": "2022-01-28",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 24,
+    "patient_id": 272,
+    "doctor_id": 42,
+    "date": "2022-01-29",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 25,
+    "patient_id": 282,
+    "doctor_id": 30,
+    "date": "2022-01-31",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 26,
+    "patient_id": 133,
+    "doctor_id": 45,
+    "date": "2022-02-01",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 27,
+    "patient_id": 187,
+    "doctor_id": 17,
+    "date": "2022-02-03",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 28,
+    "patient_id": 26,
+    "doctor_id": 31,
+    "date": "2022-02-04",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 29,
+    "patient_id": 192,
+    "doctor_id": 31,
+    "date": "2022-02-06",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 30,
+    "patient_id": 210,
+    "doctor_id": 12,
+    "date": "2022-02-07",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 31,
+    "patient_id": 28,
+    "doctor_id": 46,
+    "date": "2022-02-07",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 32,
+    "patient_id": 153,
+    "doctor_id": 2,
+    "date": "2022-02-08",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 33,
+    "patient_id": 280,
+    "doctor_id": 45,
+    "date": "2022-02-08",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 34,
+    "patient_id": 294,
+    "doctor_id": 48,
+    "date": "2022-02-09",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 35,
+    "patient_id": 49,
+    "doctor_id": 31,
+    "date": "2022-02-10",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 36,
+    "patient_id": 131,
+    "doctor_id": 34,
+    "date": "2022-02-10",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 37,
+    "patient_id": 215,
+    "doctor_id": 34,
+    "date": "2022-02-11",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 38,
+    "patient_id": 168,
+    "doctor_id": 23,
+    "date": "2022-02-16",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 39,
+    "patient_id": 177,
+    "doctor_id": 28,
+    "date": "2022-02-16",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 40,
+    "patient_id": 173,
+    "doctor_id": 41,
+    "date": "2022-02-16",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 41,
+    "patient_id": 45,
+    "doctor_id": 38,
+    "date": "2022-02-17",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 42,
+    "patient_id": 97,
+    "doctor_id": 12,
+    "date": "2022-02-18",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 43,
+    "patient_id": 113,
+    "doctor_id": 35,
+    "date": "2022-02-18",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 44,
+    "patient_id": 23,
+    "doctor_id": 45,
+    "date": "2022-02-20",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 45,
+    "patient_id": 97,
+    "doctor_id": 49,
+    "date": "2022-02-21",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 46,
+    "patient_id": 30,
+    "doctor_id": 4,
+    "date": "2022-02-21",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 47,
+    "patient_id": 15,
+    "doctor_id": 31,
+    "date": "2022-02-22",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 48,
+    "patient_id": 186,
+    "doctor_id": 10,
+    "date": "2022-02-22",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 49,
+    "patient_id": 114,
+    "doctor_id": 48,
+    "date": "2022-02-22",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 50,
+    "patient_id": 217,
+    "doctor_id": 35,
+    "date": "2022-02-22",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 51,
+    "patient_id": 275,
+    "doctor_id": 31,
+    "date": "2022-02-25",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 52,
+    "patient_id": 183,
+    "doctor_id": 45,
+    "date": "2022-02-27",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 53,
+    "patient_id": 194,
+    "doctor_id": 5,
+    "date": "2022-02-27",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 54,
+    "patient_id": 85,
+    "doctor_id": 37,
+    "date": "2022-02-27",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 55,
+    "patient_id": 267,
+    "doctor_id": 1,
+    "date": "2022-02-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 56,
+    "patient_id": 203,
+    "doctor_id": 7,
+    "date": "2022-02-28",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 57,
+    "patient_id": 112,
+    "doctor_id": 24,
+    "date": "2022-02-28",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 58,
+    "patient_id": 68,
+    "doctor_id": 18,
+    "date": "2022-03-01",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 59,
+    "patient_id": 26,
+    "doctor_id": 44,
+    "date": "2022-03-02",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 60,
+    "patient_id": 78,
+    "doctor_id": 21,
+    "date": "2022-03-03",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 61,
+    "patient_id": 48,
+    "doctor_id": 39,
+    "date": "2022-03-03",
+    "diagnosis": "Миома матки"
+  },
+  {
+    "id": 62,
+    "patient_id": 244,
+    "doctor_id": 37,
+    "date": "2022-03-04",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 63,
+    "patient_id": 75,
+    "doctor_id": 18,
+    "date": "2022-03-06",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 64,
+    "patient_id": 168,
+    "doctor_id": 7,
+    "date": "2022-03-07",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 65,
+    "patient_id": 149,
+    "doctor_id": 4,
+    "date": "2022-03-08",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 66,
+    "patient_id": 134,
+    "doctor_id": 48,
+    "date": "2022-03-09",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 67,
+    "patient_id": 141,
+    "doctor_id": 3,
+    "date": "2022-03-10",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 68,
+    "patient_id": 212,
+    "doctor_id": 11,
+    "date": "2022-03-11",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 69,
+    "patient_id": 257,
+    "doctor_id": 33,
+    "date": "2022-03-11",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 70,
+    "patient_id": 30,
+    "doctor_id": 33,
+    "date": "2022-03-11",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 71,
+    "patient_id": 174,
+    "doctor_id": 42,
+    "date": "2022-03-13",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 72,
+    "patient_id": 244,
+    "doctor_id": 30,
+    "date": "2022-03-14",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 73,
+    "patient_id": 64,
+    "doctor_id": 47,
+    "date": "2022-03-14",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 74,
+    "patient_id": 189,
+    "doctor_id": 41,
+    "date": "2022-03-14",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 75,
+    "patient_id": 33,
+    "doctor_id": 35,
+    "date": "2022-03-17",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 76,
+    "patient_id": 26,
+    "doctor_id": 48,
+    "date": "2022-03-17",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 77,
+    "patient_id": 155,
+    "doctor_id": 28,
+    "date": "2022-03-19",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 78,
+    "patient_id": 26,
+    "doctor_id": 37,
+    "date": "2022-03-19",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 79,
+    "patient_id": 30,
+    "doctor_id": 34,
+    "date": "2022-03-20",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 80,
+    "patient_id": 122,
+    "doctor_id": 50,
+    "date": "2022-03-26",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 81,
+    "patient_id": 138,
+    "doctor_id": 16,
+    "date": "2022-03-26",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 82,
+    "patient_id": 25,
+    "doctor_id": 10,
+    "date": "2022-03-30",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 83,
+    "patient_id": 58,
+    "doctor_id": 49,
+    "date": "2022-03-31",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 84,
+    "patient_id": 236,
+    "doctor_id": 2,
+    "date": "2022-03-31",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 85,
+    "patient_id": 261,
+    "doctor_id": 47,
+    "date": "2022-03-31",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 86,
+    "patient_id": 56,
+    "doctor_id": 4,
+    "date": "2022-04-01",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 87,
+    "patient_id": 181,
+    "doctor_id": 13,
+    "date": "2022-04-01",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 88,
+    "patient_id": 116,
+    "doctor_id": 7,
+    "date": "2022-04-02",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 89,
+    "patient_id": 178,
+    "doctor_id": 8,
+    "date": "2022-04-05",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 90,
+    "patient_id": 13,
+    "doctor_id": 47,
+    "date": "2022-04-05",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 91,
+    "patient_id": 56,
+    "doctor_id": 3,
+    "date": "2022-04-06",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 92,
+    "patient_id": 217,
+    "doctor_id": 43,
+    "date": "2022-04-07",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 93,
+    "patient_id": 29,
+    "doctor_id": 18,
+    "date": "2022-04-07",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 94,
+    "patient_id": 55,
+    "doctor_id": 50,
+    "date": "2022-04-08",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 95,
+    "patient_id": 73,
+    "doctor_id": 46,
+    "date": "2022-04-09",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 96,
+    "patient_id": 237,
+    "doctor_id": 45,
+    "date": "2022-04-13",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 97,
+    "patient_id": 155,
+    "doctor_id": 34,
+    "date": "2022-04-13",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 98,
+    "patient_id": 217,
+    "doctor_id": 33,
+    "date": "2022-04-13",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 99,
+    "patient_id": 189,
+    "doctor_id": 49,
+    "date": "2022-04-13",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 100,
+    "patient_id": 22,
+    "doctor_id": 35,
+    "date": "2022-04-13",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 101,
+    "patient_id": 205,
+    "doctor_id": 28,
+    "date": "2022-04-13",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 102,
+    "patient_id": 240,
+    "doctor_id": 33,
+    "date": "2022-04-14",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 103,
+    "patient_id": 129,
+    "doctor_id": 18,
+    "date": "2022-04-15",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 104,
+    "patient_id": 271,
+    "doctor_id": 7,
+    "date": "2022-04-16",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 105,
+    "patient_id": 65,
+    "doctor_id": 29,
+    "date": "2022-04-17",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 106,
+    "patient_id": 20,
+    "doctor_id": 30,
+    "date": "2022-04-18",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 107,
+    "patient_id": 185,
+    "doctor_id": 50,
+    "date": "2022-04-19",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 108,
+    "patient_id": 239,
+    "doctor_id": 41,
+    "date": "2022-04-19",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 109,
+    "patient_id": 164,
+    "doctor_id": 8,
+    "date": "2022-04-20",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 110,
+    "patient_id": 215,
+    "doctor_id": 7,
+    "date": "2022-04-21",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 111,
+    "patient_id": 79,
+    "doctor_id": 34,
+    "date": "2022-04-25",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 112,
+    "patient_id": 96,
+    "doctor_id": 26,
+    "date": "2022-04-27",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 113,
+    "patient_id": 156,
+    "doctor_id": 40,
+    "date": "2022-04-28",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 114,
+    "patient_id": 209,
+    "doctor_id": 5,
+    "date": "2022-04-28",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 115,
+    "patient_id": 184,
+    "doctor_id": 26,
+    "date": "2022-04-30",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 116,
+    "patient_id": 287,
+    "doctor_id": 43,
+    "date": "2022-05-02",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 117,
+    "patient_id": 117,
+    "doctor_id": 4,
+    "date": "2022-05-05",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 118,
+    "patient_id": 67,
+    "doctor_id": 49,
+    "date": "2022-05-06",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 119,
+    "patient_id": 68,
+    "doctor_id": 40,
+    "date": "2022-05-06",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 120,
+    "patient_id": 115,
+    "doctor_id": 2,
+    "date": "2022-05-12",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 121,
+    "patient_id": 280,
+    "doctor_id": 14,
+    "date": "2022-05-13",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 122,
+    "patient_id": 216,
+    "doctor_id": 8,
+    "date": "2022-05-14",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 123,
+    "patient_id": 184,
+    "doctor_id": 24,
+    "date": "2022-05-15",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 124,
+    "patient_id": 221,
+    "doctor_id": 18,
+    "date": "2022-05-15",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 125,
+    "patient_id": 12,
+    "doctor_id": 48,
+    "date": "2022-05-18",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 126,
+    "patient_id": 247,
+    "doctor_id": 43,
+    "date": "2022-05-19",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 127,
+    "patient_id": 23,
+    "doctor_id": 22,
+    "date": "2022-05-21",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 128,
+    "patient_id": 167,
+    "doctor_id": 40,
+    "date": "2022-05-22",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 129,
+    "patient_id": 43,
+    "doctor_id": 34,
+    "date": "2022-05-24",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 130,
+    "patient_id": 234,
+    "doctor_id": 3,
+    "date": "2022-05-25",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 131,
+    "patient_id": 7,
+    "doctor_id": 23,
+    "date": "2022-05-26",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 132,
+    "patient_id": 211,
+    "doctor_id": 42,
+    "date": "2022-05-27",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 133,
+    "patient_id": 299,
+    "doctor_id": 34,
+    "date": "2022-05-28",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 134,
+    "patient_id": 100,
+    "doctor_id": 36,
+    "date": "2022-05-30",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 135,
+    "patient_id": 263,
+    "doctor_id": 31,
+    "date": "2022-06-01",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 136,
+    "patient_id": 243,
+    "doctor_id": 37,
+    "date": "2022-06-01",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 137,
+    "patient_id": 253,
+    "doctor_id": 16,
+    "date": "2022-06-02",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 138,
+    "patient_id": 292,
+    "doctor_id": 31,
+    "date": "2022-06-02",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 139,
+    "patient_id": 196,
+    "doctor_id": 30,
+    "date": "2022-06-03",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 140,
+    "patient_id": 10,
+    "doctor_id": 24,
+    "date": "2022-06-05",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 141,
+    "patient_id": 266,
+    "doctor_id": 12,
+    "date": "2022-06-06",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 142,
+    "patient_id": 67,
+    "doctor_id": 4,
+    "date": "2022-06-08",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 143,
+    "patient_id": 219,
+    "doctor_id": 26,
+    "date": "2022-06-08",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 144,
+    "patient_id": 297,
+    "doctor_id": 2,
+    "date": "2022-06-10",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 145,
+    "patient_id": 266,
+    "doctor_id": 46,
+    "date": "2022-06-11",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 146,
+    "patient_id": 81,
+    "doctor_id": 41,
+    "date": "2022-06-12",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 147,
+    "patient_id": 150,
+    "doctor_id": 39,
+    "date": "2022-06-12",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 148,
+    "patient_id": 73,
+    "doctor_id": 46,
+    "date": "2022-06-13",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 149,
+    "patient_id": 208,
+    "doctor_id": 34,
+    "date": "2022-06-14",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 150,
+    "patient_id": 253,
+    "doctor_id": 28,
+    "date": "2022-06-17",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 151,
+    "patient_id": 204,
+    "doctor_id": 30,
+    "date": "2022-06-19",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 152,
+    "patient_id": 34,
+    "doctor_id": 25,
+    "date": "2022-06-20",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 153,
+    "patient_id": 202,
+    "doctor_id": 7,
+    "date": "2022-06-24",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 154,
+    "patient_id": 229,
+    "doctor_id": 11,
+    "date": "2022-06-24",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 155,
+    "patient_id": 72,
+    "doctor_id": 21,
+    "date": "2022-06-28",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 156,
+    "patient_id": 211,
+    "doctor_id": 10,
+    "date": "2022-06-30",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 157,
+    "patient_id": 85,
+    "doctor_id": 44,
+    "date": "2022-06-30",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 158,
+    "patient_id": 296,
+    "doctor_id": 4,
+    "date": "2022-07-04",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 159,
+    "patient_id": 215,
+    "doctor_id": 8,
+    "date": "2022-07-04",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 160,
+    "patient_id": 247,
+    "doctor_id": 16,
+    "date": "2022-07-05",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 161,
+    "patient_id": 168,
+    "doctor_id": 20,
+    "date": "2022-07-08",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 162,
+    "patient_id": 277,
+    "doctor_id": 39,
+    "date": "2022-07-10",
+    "diagnosis": "Воспалительные заболевания органов малого таза"
+  },
+  {
+    "id": 163,
+    "patient_id": 299,
+    "doctor_id": 8,
+    "date": "2022-07-11",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 164,
+    "patient_id": 198,
+    "doctor_id": 24,
+    "date": "2022-07-11",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 165,
+    "patient_id": 47,
+    "doctor_id": 4,
+    "date": "2022-07-15",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 166,
+    "patient_id": 8,
+    "doctor_id": 45,
+    "date": "2022-07-19",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 167,
+    "patient_id": 224,
+    "doctor_id": 2,
+    "date": "2022-07-21",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 168,
+    "patient_id": 25,
+    "doctor_id": 6,
+    "date": "2022-07-28",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 169,
+    "patient_id": 247,
+    "doctor_id": 11,
+    "date": "2022-07-29",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 170,
+    "patient_id": 289,
+    "doctor_id": 23,
+    "date": "2022-07-29",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 171,
+    "patient_id": 149,
+    "doctor_id": 11,
+    "date": "2022-07-29",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 172,
+    "patient_id": 135,
+    "doctor_id": 50,
+    "date": "2022-08-01",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 173,
+    "patient_id": 257,
+    "doctor_id": 7,
+    "date": "2022-08-05",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 174,
+    "patient_id": 291,
+    "doctor_id": 19,
+    "date": "2022-08-09",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 175,
+    "patient_id": 201,
+    "doctor_id": 3,
+    "date": "2022-08-09",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 176,
+    "patient_id": 69,
+    "doctor_id": 14,
+    "date": "2022-08-12",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 177,
+    "patient_id": 246,
+    "doctor_id": 34,
+    "date": "2022-08-15",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 178,
+    "patient_id": 22,
+    "doctor_id": 40,
+    "date": "2022-08-17",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 179,
+    "patient_id": 251,
+    "doctor_id": 45,
+    "date": "2022-08-18",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 180,
+    "patient_id": 210,
+    "doctor_id": 25,
+    "date": "2022-08-19",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 181,
+    "patient_id": 262,
+    "doctor_id": 36,
+    "date": "2022-08-19",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 182,
+    "patient_id": 106,
+    "doctor_id": 40,
+    "date": "2022-08-20",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 183,
+    "patient_id": 157,
+    "doctor_id": 5,
+    "date": "2022-08-21",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 184,
+    "patient_id": 6,
+    "doctor_id": 7,
+    "date": "2022-08-21",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 185,
+    "patient_id": 86,
+    "doctor_id": 1,
+    "date": "2022-08-22",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 186,
+    "patient_id": 191,
+    "doctor_id": 40,
+    "date": "2022-08-22",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 187,
+    "patient_id": 198,
+    "doctor_id": 12,
+    "date": "2022-08-24",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 188,
+    "patient_id": 33,
+    "doctor_id": 35,
+    "date": "2022-08-26",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 189,
+    "patient_id": 265,
+    "doctor_id": 17,
+    "date": "2022-08-29",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 190,
+    "patient_id": 227,
+    "doctor_id": 4,
+    "date": "2022-08-31",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 191,
+    "patient_id": 116,
+    "doctor_id": 13,
+    "date": "2022-08-31",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 192,
+    "patient_id": 198,
+    "doctor_id": 2,
+    "date": "2022-09-01",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 193,
+    "patient_id": 92,
+    "doctor_id": 46,
+    "date": "2022-09-02",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 194,
+    "patient_id": 211,
+    "doctor_id": 26,
+    "date": "2022-09-02",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 195,
+    "patient_id": 14,
+    "doctor_id": 2,
+    "date": "2022-09-03",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 196,
+    "patient_id": 271,
+    "doctor_id": 42,
+    "date": "2022-09-08",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 197,
+    "patient_id": 25,
+    "doctor_id": 39,
+    "date": "2022-09-09",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 198,
+    "patient_id": 201,
+    "doctor_id": 1,
+    "date": "2022-09-10",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 199,
+    "patient_id": 19,
+    "doctor_id": 4,
+    "date": "2022-09-10",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 200,
+    "patient_id": 40,
+    "doctor_id": 44,
+    "date": "2022-09-14",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 201,
+    "patient_id": 277,
+    "doctor_id": 4,
+    "date": "2022-09-15",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 202,
+    "patient_id": 92,
+    "doctor_id": 48,
+    "date": "2022-09-16",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 203,
+    "patient_id": 300,
+    "doctor_id": 28,
+    "date": "2022-09-18",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 204,
+    "patient_id": 281,
+    "doctor_id": 27,
+    "date": "2022-09-20",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 205,
+    "patient_id": 299,
+    "doctor_id": 44,
+    "date": "2022-09-20",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 206,
+    "patient_id": 37,
+    "doctor_id": 17,
+    "date": "2022-09-23",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 207,
+    "patient_id": 61,
+    "doctor_id": 40,
+    "date": "2022-09-24",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 208,
+    "patient_id": 281,
+    "doctor_id": 15,
+    "date": "2022-09-24",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 209,
+    "patient_id": 250,
+    "doctor_id": 13,
+    "date": "2022-09-25",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 210,
+    "patient_id": 41,
+    "doctor_id": 38,
+    "date": "2022-09-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 211,
+    "patient_id": 93,
+    "doctor_id": 4,
+    "date": "2022-09-30",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 212,
+    "patient_id": 79,
+    "doctor_id": 45,
+    "date": "2022-10-02",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 213,
+    "patient_id": 163,
+    "doctor_id": 3,
+    "date": "2022-10-03",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 214,
+    "patient_id": 221,
+    "doctor_id": 42,
+    "date": "2022-10-03",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 215,
+    "patient_id": 214,
+    "doctor_id": 47,
+    "date": "2022-10-04",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 216,
+    "patient_id": 25,
+    "doctor_id": 19,
+    "date": "2022-10-05",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 217,
+    "patient_id": 255,
+    "doctor_id": 41,
+    "date": "2022-10-10",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 218,
+    "patient_id": 217,
+    "doctor_id": 5,
+    "date": "2022-10-11",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 219,
+    "patient_id": 279,
+    "doctor_id": 29,
+    "date": "2022-10-12",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 220,
+    "patient_id": 129,
+    "doctor_id": 26,
+    "date": "2022-10-13",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 221,
+    "patient_id": 106,
+    "doctor_id": 2,
+    "date": "2022-10-14",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 222,
+    "patient_id": 289,
+    "doctor_id": 7,
+    "date": "2022-10-15",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 223,
+    "patient_id": 67,
+    "doctor_id": 3,
+    "date": "2022-10-15",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 224,
+    "patient_id": 16,
+    "doctor_id": 40,
+    "date": "2022-10-16",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 225,
+    "patient_id": 76,
+    "doctor_id": 24,
+    "date": "2022-10-17",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 226,
+    "patient_id": 157,
+    "doctor_id": 45,
+    "date": "2022-10-19",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 227,
+    "patient_id": 240,
+    "doctor_id": 49,
+    "date": "2022-10-19",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 228,
+    "patient_id": 29,
+    "doctor_id": 7,
+    "date": "2022-10-20",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 229,
+    "patient_id": 263,
+    "doctor_id": 9,
+    "date": "2022-10-20",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 230,
+    "patient_id": 136,
+    "doctor_id": 11,
+    "date": "2022-10-21",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 231,
+    "patient_id": 256,
+    "doctor_id": 37,
+    "date": "2022-10-23",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 232,
+    "patient_id": 141,
+    "doctor_id": 23,
+    "date": "2022-10-24",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 233,
+    "patient_id": 44,
+    "doctor_id": 6,
+    "date": "2022-10-24",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 234,
+    "patient_id": 245,
+    "doctor_id": 29,
+    "date": "2022-10-25",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 235,
+    "patient_id": 89,
+    "doctor_id": 37,
+    "date": "2022-10-25",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 236,
+    "patient_id": 34,
+    "doctor_id": 47,
+    "date": "2022-10-26",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 237,
+    "patient_id": 4,
+    "doctor_id": 46,
+    "date": "2022-10-28",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 238,
+    "patient_id": 175,
+    "doctor_id": 26,
+    "date": "2022-10-30",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 239,
+    "patient_id": 108,
+    "doctor_id": 17,
+    "date": "2022-10-30",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 240,
+    "patient_id": 115,
+    "doctor_id": 32,
+    "date": "2022-10-30",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 241,
+    "patient_id": 214,
+    "doctor_id": 36,
+    "date": "2022-10-30",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 242,
+    "patient_id": 185,
+    "doctor_id": 38,
+    "date": "2022-11-01",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 243,
+    "patient_id": 205,
+    "doctor_id": 36,
+    "date": "2022-11-01",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 244,
+    "patient_id": 250,
+    "doctor_id": 40,
+    "date": "2022-11-02",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 245,
+    "patient_id": 256,
+    "doctor_id": 33,
+    "date": "2022-11-03",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 246,
+    "patient_id": 8,
+    "doctor_id": 49,
+    "date": "2022-11-04",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 247,
+    "patient_id": 35,
+    "doctor_id": 11,
+    "date": "2022-11-04",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 248,
+    "patient_id": 285,
+    "doctor_id": 26,
+    "date": "2022-11-05",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 249,
+    "patient_id": 124,
+    "doctor_id": 24,
+    "date": "2022-11-05",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 250,
+    "patient_id": 190,
+    "doctor_id": 17,
+    "date": "2022-11-05",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 251,
+    "patient_id": 159,
+    "doctor_id": 41,
+    "date": "2022-11-08",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 252,
+    "patient_id": 77,
+    "doctor_id": 23,
+    "date": "2022-11-09",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 253,
+    "patient_id": 98,
+    "doctor_id": 8,
+    "date": "2022-11-09",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 254,
+    "patient_id": 198,
+    "doctor_id": 48,
+    "date": "2022-11-13",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 255,
+    "patient_id": 46,
+    "doctor_id": 23,
+    "date": "2022-11-17",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 256,
+    "patient_id": 125,
+    "doctor_id": 7,
+    "date": "2022-11-19",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 257,
+    "patient_id": 105,
+    "doctor_id": 17,
+    "date": "2022-11-20",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 258,
+    "patient_id": 64,
+    "doctor_id": 32,
+    "date": "2022-11-21",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 259,
+    "patient_id": 193,
+    "doctor_id": 37,
+    "date": "2022-11-24",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 260,
+    "patient_id": 232,
+    "doctor_id": 50,
+    "date": "2022-11-24",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 261,
+    "patient_id": 299,
+    "doctor_id": 43,
+    "date": "2022-11-26",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 262,
+    "patient_id": 263,
+    "doctor_id": 17,
+    "date": "2022-11-27",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 263,
+    "patient_id": 22,
+    "doctor_id": 26,
+    "date": "2022-11-27",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 264,
+    "patient_id": 54,
+    "doctor_id": 5,
+    "date": "2022-11-28",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 265,
+    "patient_id": 217,
+    "doctor_id": 20,
+    "date": "2022-11-28",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 266,
+    "patient_id": 147,
+    "doctor_id": 25,
+    "date": "2022-11-29",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 267,
+    "patient_id": 276,
+    "doctor_id": 10,
+    "date": "2022-12-01",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 268,
+    "patient_id": 35,
+    "doctor_id": 20,
+    "date": "2022-12-02",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 269,
+    "patient_id": 151,
+    "doctor_id": 12,
+    "date": "2022-12-02",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 270,
+    "patient_id": 288,
+    "doctor_id": 39,
+    "date": "2022-12-02",
+    "diagnosis": "Миома матки"
+  },
+  {
+    "id": 271,
+    "patient_id": 272,
+    "doctor_id": 25,
+    "date": "2022-12-04",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 272,
+    "patient_id": 6,
+    "doctor_id": 20,
+    "date": "2022-12-04",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 273,
+    "patient_id": 110,
+    "doctor_id": 21,
+    "date": "2022-12-07",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 274,
+    "patient_id": 89,
+    "doctor_id": 16,
+    "date": "2022-12-10",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 275,
+    "patient_id": 81,
+    "doctor_id": 5,
+    "date": "2022-12-10",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 276,
+    "patient_id": 75,
+    "doctor_id": 31,
+    "date": "2022-12-12",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 277,
+    "patient_id": 120,
+    "doctor_id": 34,
+    "date": "2022-12-12",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 278,
+    "patient_id": 27,
+    "doctor_id": 5,
+    "date": "2022-12-13",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 279,
+    "patient_id": 123,
+    "doctor_id": 42,
+    "date": "2022-12-14",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 280,
+    "patient_id": 182,
+    "doctor_id": 16,
+    "date": "2022-12-15",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 281,
+    "patient_id": 128,
+    "doctor_id": 25,
+    "date": "2022-12-17",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 282,
+    "patient_id": 174,
+    "doctor_id": 43,
+    "date": "2022-12-18",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 283,
+    "patient_id": 236,
+    "doctor_id": 3,
+    "date": "2022-12-19",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 284,
+    "patient_id": 89,
+    "doctor_id": 45,
+    "date": "2022-12-19",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 285,
+    "patient_id": 300,
+    "doctor_id": 11,
+    "date": "2022-12-21",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 286,
+    "patient_id": 220,
+    "doctor_id": 36,
+    "date": "2022-12-21",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 287,
+    "patient_id": 266,
+    "doctor_id": 28,
+    "date": "2022-12-21",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 288,
+    "patient_id": 56,
+    "doctor_id": 14,
+    "date": "2022-12-22",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 289,
+    "patient_id": 87,
+    "doctor_id": 26,
+    "date": "2022-12-23",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 290,
+    "patient_id": 56,
+    "doctor_id": 12,
+    "date": "2022-12-23",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 291,
+    "patient_id": 278,
+    "doctor_id": 47,
+    "date": "2022-12-24",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 292,
+    "patient_id": 265,
+    "doctor_id": 35,
+    "date": "2022-12-25",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 293,
+    "patient_id": 190,
+    "doctor_id": 3,
+    "date": "2022-12-26",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 294,
+    "patient_id": 99,
+    "doctor_id": 4,
+    "date": "2022-12-27",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 295,
+    "patient_id": 43,
+    "doctor_id": 24,
+    "date": "2022-12-27",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 296,
+    "patient_id": 208,
+    "doctor_id": 18,
+    "date": "2022-12-28",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 297,
+    "patient_id": 19,
+    "doctor_id": 18,
+    "date": "2022-12-28",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 298,
+    "patient_id": 79,
+    "doctor_id": 13,
+    "date": "2022-12-28",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 299,
+    "patient_id": 233,
+    "doctor_id": 39,
+    "date": "2022-12-31",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 300,
+    "patient_id": 300,
+    "doctor_id": 36,
+    "date": "2023-01-01",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 301,
+    "patient_id": 130,
+    "doctor_id": 1,
+    "date": "2023-01-01",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 302,
+    "patient_id": 273,
+    "doctor_id": 33,
+    "date": "2023-01-07",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 303,
+    "patient_id": 268,
+    "doctor_id": 22,
+    "date": "2023-01-09",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 304,
+    "patient_id": 184,
+    "doctor_id": 20,
+    "date": "2023-01-11",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 305,
+    "patient_id": 11,
+    "doctor_id": 40,
+    "date": "2023-01-11",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 306,
+    "patient_id": 55,
+    "doctor_id": 47,
+    "date": "2023-01-12",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 307,
+    "patient_id": 21,
+    "doctor_id": 40,
+    "date": "2023-01-13",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 308,
+    "patient_id": 102,
+    "doctor_id": 39,
+    "date": "2023-01-15",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 309,
+    "patient_id": 209,
+    "doctor_id": 42,
+    "date": "2023-01-17",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 310,
+    "patient_id": 262,
+    "doctor_id": 15,
+    "date": "2023-01-17",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 311,
+    "patient_id": 37,
+    "doctor_id": 49,
+    "date": "2023-01-17",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 312,
+    "patient_id": 51,
+    "doctor_id": 1,
+    "date": "2023-01-19",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 313,
+    "patient_id": 131,
+    "doctor_id": 48,
+    "date": "2023-01-20",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 314,
+    "patient_id": 234,
+    "doctor_id": 45,
+    "date": "2023-01-20",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 315,
+    "patient_id": 195,
+    "doctor_id": 16,
+    "date": "2023-01-21",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 316,
+    "patient_id": 174,
+    "doctor_id": 32,
+    "date": "2023-01-21",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 317,
+    "patient_id": 251,
+    "doctor_id": 38,
+    "date": "2023-01-22",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 318,
+    "patient_id": 23,
+    "doctor_id": 40,
+    "date": "2023-01-25",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 319,
+    "patient_id": 65,
+    "doctor_id": 3,
+    "date": "2023-01-28",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 320,
+    "patient_id": 177,
+    "doctor_id": 42,
+    "date": "2023-01-28",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 321,
+    "patient_id": 219,
+    "doctor_id": 27,
+    "date": "2023-01-29",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 322,
+    "patient_id": 169,
+    "doctor_id": 2,
+    "date": "2023-01-29",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 323,
+    "patient_id": 208,
+    "doctor_id": 39,
+    "date": "2023-01-31",
+    "diagnosis": "Миома матки"
+  },
+  {
+    "id": 324,
+    "patient_id": 140,
+    "doctor_id": 1,
+    "date": "2023-01-31",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 325,
+    "patient_id": 194,
+    "doctor_id": 35,
+    "date": "2023-02-01",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 326,
+    "patient_id": 24,
+    "doctor_id": 48,
+    "date": "2023-02-02",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 327,
+    "patient_id": 14,
+    "doctor_id": 21,
+    "date": "2023-02-05",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 328,
+    "patient_id": 168,
+    "doctor_id": 36,
+    "date": "2023-02-05",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 329,
+    "patient_id": 44,
+    "doctor_id": 20,
+    "date": "2023-02-06",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 330,
+    "patient_id": 4,
+    "doctor_id": 28,
+    "date": "2023-02-08",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 331,
+    "patient_id": 167,
+    "doctor_id": 17,
+    "date": "2023-02-08",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 332,
+    "patient_id": 197,
+    "doctor_id": 36,
+    "date": "2023-02-09",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 333,
+    "patient_id": 174,
+    "doctor_id": 10,
+    "date": "2023-02-09",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 334,
+    "patient_id": 150,
+    "doctor_id": 47,
+    "date": "2023-02-10",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 335,
+    "patient_id": 204,
+    "doctor_id": 45,
+    "date": "2023-02-10",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 336,
+    "patient_id": 86,
+    "doctor_id": 1,
+    "date": "2023-02-10",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 337,
+    "patient_id": 21,
+    "doctor_id": 16,
+    "date": "2023-02-13",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 338,
+    "patient_id": 48,
+    "doctor_id": 38,
+    "date": "2023-02-17",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 339,
+    "patient_id": 13,
+    "doctor_id": 45,
+    "date": "2023-02-18",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 340,
+    "patient_id": 260,
+    "doctor_id": 3,
+    "date": "2023-02-21",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 341,
+    "patient_id": 166,
+    "doctor_id": 45,
+    "date": "2023-02-25",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 342,
+    "patient_id": 146,
+    "doctor_id": 10,
+    "date": "2023-02-26",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 343,
+    "patient_id": 148,
+    "doctor_id": 33,
+    "date": "2023-02-27",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 344,
+    "patient_id": 86,
+    "doctor_id": 28,
+    "date": "2023-02-28",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 345,
+    "patient_id": 264,
+    "doctor_id": 37,
+    "date": "2023-03-01",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 346,
+    "patient_id": 231,
+    "doctor_id": 45,
+    "date": "2023-03-02",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 347,
+    "patient_id": 69,
+    "doctor_id": 1,
+    "date": "2023-03-03",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 348,
+    "patient_id": 200,
+    "doctor_id": 18,
+    "date": "2023-03-05",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 349,
+    "patient_id": 118,
+    "doctor_id": 16,
+    "date": "2023-03-05",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 350,
+    "patient_id": 168,
+    "doctor_id": 36,
+    "date": "2023-03-06",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 351,
+    "patient_id": 224,
+    "doctor_id": 30,
+    "date": "2023-03-08",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 352,
+    "patient_id": 65,
+    "doctor_id": 30,
+    "date": "2023-03-09",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 353,
+    "patient_id": 102,
+    "doctor_id": 10,
+    "date": "2023-03-12",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 354,
+    "patient_id": 79,
+    "doctor_id": 49,
+    "date": "2023-03-13",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 355,
+    "patient_id": 109,
+    "doctor_id": 8,
+    "date": "2023-03-15",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 356,
+    "patient_id": 258,
+    "doctor_id": 44,
+    "date": "2023-03-15",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 357,
+    "patient_id": 14,
+    "doctor_id": 4,
+    "date": "2023-03-16",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 358,
+    "patient_id": 75,
+    "doctor_id": 35,
+    "date": "2023-03-16",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 359,
+    "patient_id": 232,
+    "doctor_id": 17,
+    "date": "2023-03-19",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 360,
+    "patient_id": 170,
+    "doctor_id": 45,
+    "date": "2023-03-21",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 361,
+    "patient_id": 38,
+    "doctor_id": 31,
+    "date": "2023-03-22",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 362,
+    "patient_id": 183,
+    "doctor_id": 3,
+    "date": "2023-03-24",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 363,
+    "patient_id": 76,
+    "doctor_id": 11,
+    "date": "2023-03-25",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 364,
+    "patient_id": 108,
+    "doctor_id": 43,
+    "date": "2023-03-25",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 365,
+    "patient_id": 152,
+    "doctor_id": 31,
+    "date": "2023-03-26",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 366,
+    "patient_id": 171,
+    "doctor_id": 26,
+    "date": "2023-03-29",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 367,
+    "patient_id": 236,
+    "doctor_id": 17,
+    "date": "2023-03-29",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 368,
+    "patient_id": 238,
+    "doctor_id": 38,
+    "date": "2023-03-31",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 369,
+    "patient_id": 203,
+    "doctor_id": 19,
+    "date": "2023-04-01",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 370,
+    "patient_id": 259,
+    "doctor_id": 29,
+    "date": "2023-04-02",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 371,
+    "patient_id": 110,
+    "doctor_id": 30,
+    "date": "2023-04-04",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 372,
+    "patient_id": 43,
+    "doctor_id": 41,
+    "date": "2023-04-06",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 373,
+    "patient_id": 147,
+    "doctor_id": 32,
+    "date": "2023-04-10",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 374,
+    "patient_id": 251,
+    "doctor_id": 45,
+    "date": "2023-04-10",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 375,
+    "patient_id": 117,
+    "doctor_id": 4,
+    "date": "2023-04-12",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 376,
+    "patient_id": 171,
+    "doctor_id": 16,
+    "date": "2023-04-13",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 377,
+    "patient_id": 17,
+    "doctor_id": 13,
+    "date": "2023-04-15",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 378,
+    "patient_id": 2,
+    "doctor_id": 11,
+    "date": "2023-04-16",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 379,
+    "patient_id": 198,
+    "doctor_id": 7,
+    "date": "2023-04-16",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 380,
+    "patient_id": 214,
+    "doctor_id": 18,
+    "date": "2023-04-18",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 381,
+    "patient_id": 296,
+    "doctor_id": 3,
+    "date": "2023-04-19",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 382,
+    "patient_id": 122,
+    "doctor_id": 14,
+    "date": "2023-04-20",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 383,
+    "patient_id": 208,
+    "doctor_id": 32,
+    "date": "2023-04-20",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 384,
+    "patient_id": 223,
+    "doctor_id": 4,
+    "date": "2023-04-22",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 385,
+    "patient_id": 160,
+    "doctor_id": 48,
+    "date": "2023-04-22",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 386,
+    "patient_id": 135,
+    "doctor_id": 43,
+    "date": "2023-04-23",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 387,
+    "patient_id": 197,
+    "doctor_id": 24,
+    "date": "2023-04-24",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 388,
+    "patient_id": 283,
+    "doctor_id": 2,
+    "date": "2023-04-25",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 389,
+    "patient_id": 47,
+    "doctor_id": 8,
+    "date": "2023-04-26",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 390,
+    "patient_id": 80,
+    "doctor_id": 33,
+    "date": "2023-04-26",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 391,
+    "patient_id": 50,
+    "doctor_id": 27,
+    "date": "2023-04-27",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 392,
+    "patient_id": 218,
+    "doctor_id": 15,
+    "date": "2023-04-27",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 393,
+    "patient_id": 98,
+    "doctor_id": 34,
+    "date": "2023-04-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 394,
+    "patient_id": 42,
+    "doctor_id": 34,
+    "date": "2023-04-29",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 395,
+    "patient_id": 155,
+    "doctor_id": 19,
+    "date": "2023-04-30",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 396,
+    "patient_id": 32,
+    "doctor_id": 44,
+    "date": "2023-05-01",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 397,
+    "patient_id": 232,
+    "doctor_id": 42,
+    "date": "2023-05-02",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 398,
+    "patient_id": 83,
+    "doctor_id": 23,
+    "date": "2023-05-04",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 399,
+    "patient_id": 93,
+    "doctor_id": 5,
+    "date": "2023-05-07",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 400,
+    "patient_id": 141,
+    "doctor_id": 18,
+    "date": "2023-05-07",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 401,
+    "patient_id": 117,
+    "doctor_id": 17,
+    "date": "2023-05-13",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 402,
+    "patient_id": 294,
+    "doctor_id": 6,
+    "date": "2023-05-13",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 403,
+    "patient_id": 230,
+    "doctor_id": 30,
+    "date": "2023-05-15",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 404,
+    "patient_id": 157,
+    "doctor_id": 15,
+    "date": "2023-05-21",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 405,
+    "patient_id": 117,
+    "doctor_id": 2,
+    "date": "2023-05-21",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 406,
+    "patient_id": 10,
+    "doctor_id": 40,
+    "date": "2023-05-23",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 407,
+    "patient_id": 89,
+    "doctor_id": 8,
+    "date": "2023-05-23",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 408,
+    "patient_id": 124,
+    "doctor_id": 44,
+    "date": "2023-05-24",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 409,
+    "patient_id": 129,
+    "doctor_id": 44,
+    "date": "2023-05-25",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 410,
+    "patient_id": 209,
+    "doctor_id": 1,
+    "date": "2023-05-25",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 411,
+    "patient_id": 2,
+    "doctor_id": 1,
+    "date": "2023-05-25",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 412,
+    "patient_id": 52,
+    "doctor_id": 40,
+    "date": "2023-05-26",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 413,
+    "patient_id": 204,
+    "doctor_id": 4,
+    "date": "2023-05-30",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 414,
+    "patient_id": 66,
+    "doctor_id": 27,
+    "date": "2023-05-31",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 415,
+    "patient_id": 247,
+    "doctor_id": 23,
+    "date": "2023-05-31",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 416,
+    "patient_id": 225,
+    "doctor_id": 45,
+    "date": "2023-06-02",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 417,
+    "patient_id": 81,
+    "doctor_id": 18,
+    "date": "2023-06-04",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 418,
+    "patient_id": 268,
+    "doctor_id": 19,
+    "date": "2023-06-04",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 419,
+    "patient_id": 178,
+    "doctor_id": 14,
+    "date": "2023-06-04",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 420,
+    "patient_id": 75,
+    "doctor_id": 11,
+    "date": "2023-06-06",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 421,
+    "patient_id": 148,
+    "doctor_id": 33,
+    "date": "2023-06-06",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 422,
+    "patient_id": 7,
+    "doctor_id": 38,
+    "date": "2023-06-07",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 423,
+    "patient_id": 274,
+    "doctor_id": 12,
+    "date": "2023-06-08",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 424,
+    "patient_id": 130,
+    "doctor_id": 24,
+    "date": "2023-06-08",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 425,
+    "patient_id": 245,
+    "doctor_id": 16,
+    "date": "2023-06-09",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 426,
+    "patient_id": 40,
+    "doctor_id": 41,
+    "date": "2023-06-11",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 427,
+    "patient_id": 236,
+    "doctor_id": 38,
+    "date": "2023-06-15",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 428,
+    "patient_id": 229,
+    "doctor_id": 30,
+    "date": "2023-06-15",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 429,
+    "patient_id": 190,
+    "doctor_id": 36,
+    "date": "2023-06-17",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 430,
+    "patient_id": 31,
+    "doctor_id": 27,
+    "date": "2023-06-21",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 431,
+    "patient_id": 51,
+    "doctor_id": 26,
+    "date": "2023-06-21",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 432,
+    "patient_id": 175,
+    "doctor_id": 45,
+    "date": "2023-06-26",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 433,
+    "patient_id": 55,
+    "doctor_id": 43,
+    "date": "2023-06-26",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 434,
+    "patient_id": 87,
+    "doctor_id": 27,
+    "date": "2023-06-27",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 435,
+    "patient_id": 15,
+    "doctor_id": 42,
+    "date": "2023-06-27",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 436,
+    "patient_id": 282,
+    "doctor_id": 22,
+    "date": "2023-06-27",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 437,
+    "patient_id": 152,
+    "doctor_id": 11,
+    "date": "2023-06-27",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 438,
+    "patient_id": 277,
+    "doctor_id": 21,
+    "date": "2023-06-29",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 439,
+    "patient_id": 298,
+    "doctor_id": 36,
+    "date": "2023-06-30",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 440,
+    "patient_id": 140,
+    "doctor_id": 37,
+    "date": "2023-06-30",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 441,
+    "patient_id": 127,
+    "doctor_id": 18,
+    "date": "2023-07-03",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 442,
+    "patient_id": 9,
+    "doctor_id": 47,
+    "date": "2023-07-04",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 443,
+    "patient_id": 78,
+    "doctor_id": 29,
+    "date": "2023-07-06",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 444,
+    "patient_id": 205,
+    "doctor_id": 39,
+    "date": "2023-07-06",
+    "diagnosis": "Миома матки"
+  },
+  {
+    "id": 445,
+    "patient_id": 246,
+    "doctor_id": 31,
+    "date": "2023-07-07",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 446,
+    "patient_id": 60,
+    "doctor_id": 2,
+    "date": "2023-07-07",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 447,
+    "patient_id": 29,
+    "doctor_id": 39,
+    "date": "2023-07-07",
+    "diagnosis": "Воспалительные заболевания органов малого таза"
+  },
+  {
+    "id": 448,
+    "patient_id": 124,
+    "doctor_id": 16,
+    "date": "2023-07-08",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 449,
+    "patient_id": 25,
+    "doctor_id": 44,
+    "date": "2023-07-11",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 450,
+    "patient_id": 181,
+    "doctor_id": 28,
+    "date": "2023-07-11",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 451,
+    "patient_id": 18,
+    "doctor_id": 26,
+    "date": "2023-07-12",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 452,
+    "patient_id": 251,
+    "doctor_id": 15,
+    "date": "2023-07-14",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 453,
+    "patient_id": 109,
+    "doctor_id": 10,
+    "date": "2023-07-15",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 454,
+    "patient_id": 284,
+    "doctor_id": 24,
+    "date": "2023-07-16",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 455,
+    "patient_id": 279,
+    "doctor_id": 32,
+    "date": "2023-07-16",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 456,
+    "patient_id": 158,
+    "doctor_id": 22,
+    "date": "2023-07-18",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 457,
+    "patient_id": 52,
+    "doctor_id": 43,
+    "date": "2023-07-18",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 458,
+    "patient_id": 29,
+    "doctor_id": 9,
+    "date": "2023-07-21",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 459,
+    "patient_id": 10,
+    "doctor_id": 30,
+    "date": "2023-07-23",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 460,
+    "patient_id": 157,
+    "doctor_id": 2,
+    "date": "2023-07-24",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 461,
+    "patient_id": 232,
+    "doctor_id": 2,
+    "date": "2023-07-25",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 462,
+    "patient_id": 156,
+    "doctor_id": 40,
+    "date": "2023-07-25",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 463,
+    "patient_id": 128,
+    "doctor_id": 2,
+    "date": "2023-07-27",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 464,
+    "patient_id": 35,
+    "doctor_id": 30,
+    "date": "2023-07-27",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 465,
+    "patient_id": 73,
+    "doctor_id": 33,
+    "date": "2023-07-29",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 466,
+    "patient_id": 88,
+    "doctor_id": 9,
+    "date": "2023-07-29",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 467,
+    "patient_id": 47,
+    "doctor_id": 45,
+    "date": "2023-07-30",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 468,
+    "patient_id": 179,
+    "doctor_id": 24,
+    "date": "2023-07-31",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 469,
+    "patient_id": 277,
+    "doctor_id": 37,
+    "date": "2023-08-04",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 470,
+    "patient_id": 217,
+    "doctor_id": 38,
+    "date": "2023-08-05",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 471,
+    "patient_id": 132,
+    "doctor_id": 9,
+    "date": "2023-08-06",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 472,
+    "patient_id": 210,
+    "doctor_id": 42,
+    "date": "2023-08-06",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 473,
+    "patient_id": 206,
+    "doctor_id": 9,
+    "date": "2023-08-07",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 474,
+    "patient_id": 232,
+    "doctor_id": 41,
+    "date": "2023-08-08",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 475,
+    "patient_id": 188,
+    "doctor_id": 38,
+    "date": "2023-08-10",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 476,
+    "patient_id": 50,
+    "doctor_id": 43,
+    "date": "2023-08-11",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 477,
+    "patient_id": 222,
+    "doctor_id": 3,
+    "date": "2023-08-12",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 478,
+    "patient_id": 204,
+    "doctor_id": 4,
+    "date": "2023-08-14",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 479,
+    "patient_id": 158,
+    "doctor_id": 36,
+    "date": "2023-08-15",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 480,
+    "patient_id": 102,
+    "doctor_id": 15,
+    "date": "2023-08-16",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 481,
+    "patient_id": 258,
+    "doctor_id": 17,
+    "date": "2023-08-16",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 482,
+    "patient_id": 19,
+    "doctor_id": 49,
+    "date": "2023-08-18",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 483,
+    "patient_id": 141,
+    "doctor_id": 48,
+    "date": "2023-08-19",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 484,
+    "patient_id": 265,
+    "doctor_id": 9,
+    "date": "2023-08-23",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 485,
+    "patient_id": 68,
+    "doctor_id": 15,
+    "date": "2023-08-24",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 486,
+    "patient_id": 168,
+    "doctor_id": 10,
+    "date": "2023-08-25",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 487,
+    "patient_id": 71,
+    "doctor_id": 45,
+    "date": "2023-08-26",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 488,
+    "patient_id": 267,
+    "doctor_id": 14,
+    "date": "2023-08-27",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 489,
+    "patient_id": 150,
+    "doctor_id": 36,
+    "date": "2023-08-27",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 490,
+    "patient_id": 280,
+    "doctor_id": 33,
+    "date": "2023-08-29",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 491,
+    "patient_id": 183,
+    "doctor_id": 47,
+    "date": "2023-08-29",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 492,
+    "patient_id": 255,
+    "doctor_id": 41,
+    "date": "2023-08-29",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 493,
+    "patient_id": 79,
+    "doctor_id": 40,
+    "date": "2023-09-01",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 494,
+    "patient_id": 25,
+    "doctor_id": 18,
+    "date": "2023-09-01",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 495,
+    "patient_id": 223,
+    "doctor_id": 40,
+    "date": "2023-09-03",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 496,
+    "patient_id": 139,
+    "doctor_id": 26,
+    "date": "2023-09-04",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 497,
+    "patient_id": 114,
+    "doctor_id": 34,
+    "date": "2023-09-04",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 498,
+    "patient_id": 81,
+    "doctor_id": 23,
+    "date": "2023-09-07",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 499,
+    "patient_id": 96,
+    "doctor_id": 24,
+    "date": "2023-09-08",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 500,
+    "patient_id": 281,
+    "doctor_id": 20,
+    "date": "2023-09-09",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 501,
+    "patient_id": 243,
+    "doctor_id": 21,
+    "date": "2023-09-09",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 502,
+    "patient_id": 240,
+    "doctor_id": 42,
+    "date": "2023-09-09",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 503,
+    "patient_id": 68,
+    "doctor_id": 42,
+    "date": "2023-09-12",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 504,
+    "patient_id": 66,
+    "doctor_id": 17,
+    "date": "2023-09-14",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 505,
+    "patient_id": 248,
+    "doctor_id": 34,
+    "date": "2023-09-18",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 506,
+    "patient_id": 74,
+    "doctor_id": 50,
+    "date": "2023-09-18",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 507,
+    "patient_id": 113,
+    "doctor_id": 1,
+    "date": "2023-09-19",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 508,
+    "patient_id": 179,
+    "doctor_id": 22,
+    "date": "2023-09-20",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 509,
+    "patient_id": 73,
+    "doctor_id": 2,
+    "date": "2023-09-20",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 510,
+    "patient_id": 237,
+    "doctor_id": 16,
+    "date": "2023-09-24",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 511,
+    "patient_id": 100,
+    "doctor_id": 9,
+    "date": "2023-09-25",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 512,
+    "patient_id": 206,
+    "doctor_id": 38,
+    "date": "2023-09-27",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 513,
+    "patient_id": 155,
+    "doctor_id": 30,
+    "date": "2023-09-28",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 514,
+    "patient_id": 156,
+    "doctor_id": 37,
+    "date": "2023-09-28",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 515,
+    "patient_id": 131,
+    "doctor_id": 27,
+    "date": "2023-09-30",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 516,
+    "patient_id": 289,
+    "doctor_id": 46,
+    "date": "2023-09-30",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 517,
+    "patient_id": 139,
+    "doctor_id": 8,
+    "date": "2023-09-30",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 518,
+    "patient_id": 119,
+    "doctor_id": 17,
+    "date": "2023-10-03",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 519,
+    "patient_id": 65,
+    "doctor_id": 28,
+    "date": "2023-10-04",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 520,
+    "patient_id": 157,
+    "doctor_id": 8,
+    "date": "2023-10-04",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 521,
+    "patient_id": 76,
+    "doctor_id": 23,
+    "date": "2023-10-04",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 522,
+    "patient_id": 225,
+    "doctor_id": 39,
+    "date": "2023-10-05",
+    "diagnosis": "Воспалительные заболевания органов малого таза"
+  },
+  {
+    "id": 523,
+    "patient_id": 292,
+    "doctor_id": 25,
+    "date": "2023-10-06",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 524,
+    "patient_id": 293,
+    "doctor_id": 15,
+    "date": "2023-10-06",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 525,
+    "patient_id": 79,
+    "doctor_id": 48,
+    "date": "2023-10-08",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 526,
+    "patient_id": 4,
+    "doctor_id": 49,
+    "date": "2023-10-09",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 527,
+    "patient_id": 184,
+    "doctor_id": 15,
+    "date": "2023-10-09",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 528,
+    "patient_id": 69,
+    "doctor_id": 30,
+    "date": "2023-10-10",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 529,
+    "patient_id": 92,
+    "doctor_id": 33,
+    "date": "2023-10-11",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 530,
+    "patient_id": 201,
+    "doctor_id": 36,
+    "date": "2023-10-12",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 531,
+    "patient_id": 213,
+    "doctor_id": 31,
+    "date": "2023-10-12",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 532,
+    "patient_id": 206,
+    "doctor_id": 50,
+    "date": "2023-10-12",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 533,
+    "patient_id": 8,
+    "doctor_id": 38,
+    "date": "2023-10-14",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 534,
+    "patient_id": 265,
+    "doctor_id": 24,
+    "date": "2023-10-14",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 535,
+    "patient_id": 131,
+    "doctor_id": 14,
+    "date": "2023-10-14",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 536,
+    "patient_id": 122,
+    "doctor_id": 12,
+    "date": "2023-10-16",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 537,
+    "patient_id": 247,
+    "doctor_id": 26,
+    "date": "2023-10-17",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 538,
+    "patient_id": 22,
+    "doctor_id": 27,
+    "date": "2023-10-21",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 539,
+    "patient_id": 13,
+    "doctor_id": 12,
+    "date": "2023-10-22",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 540,
+    "patient_id": 281,
+    "doctor_id": 41,
+    "date": "2023-10-23",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 541,
+    "patient_id": 149,
+    "doctor_id": 48,
+    "date": "2023-10-24",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 542,
+    "patient_id": 14,
+    "doctor_id": 40,
+    "date": "2023-10-24",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 543,
+    "patient_id": 50,
+    "doctor_id": 36,
+    "date": "2023-10-27",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 544,
+    "patient_id": 148,
+    "doctor_id": 25,
+    "date": "2023-10-28",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 545,
+    "patient_id": 263,
+    "doctor_id": 1,
+    "date": "2023-10-28",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 546,
+    "patient_id": 149,
+    "doctor_id": 26,
+    "date": "2023-11-01",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 547,
+    "patient_id": 279,
+    "doctor_id": 20,
+    "date": "2023-11-01",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 548,
+    "patient_id": 272,
+    "doctor_id": 34,
+    "date": "2023-11-01",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 549,
+    "patient_id": 168,
+    "doctor_id": 5,
+    "date": "2023-11-02",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 550,
+    "patient_id": 58,
+    "doctor_id": 18,
+    "date": "2023-11-03",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 551,
+    "patient_id": 127,
+    "doctor_id": 32,
+    "date": "2023-11-05",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 552,
+    "patient_id": 164,
+    "doctor_id": 7,
+    "date": "2023-11-07",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 553,
+    "patient_id": 281,
+    "doctor_id": 31,
+    "date": "2023-11-09",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 554,
+    "patient_id": 20,
+    "doctor_id": 2,
+    "date": "2023-11-10",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 555,
+    "patient_id": 101,
+    "doctor_id": 48,
+    "date": "2023-11-10",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 556,
+    "patient_id": 160,
+    "doctor_id": 32,
+    "date": "2023-11-12",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 557,
+    "patient_id": 196,
+    "doctor_id": 5,
+    "date": "2023-11-14",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 558,
+    "patient_id": 143,
+    "doctor_id": 13,
+    "date": "2023-11-15",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 559,
+    "patient_id": 286,
+    "doctor_id": 19,
+    "date": "2023-11-16",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 560,
+    "patient_id": 160,
+    "doctor_id": 50,
+    "date": "2023-11-17",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 561,
+    "patient_id": 208,
+    "doctor_id": 48,
+    "date": "2023-11-19",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 562,
+    "patient_id": 283,
+    "doctor_id": 27,
+    "date": "2023-11-20",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 563,
+    "patient_id": 224,
+    "doctor_id": 3,
+    "date": "2023-11-21",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 564,
+    "patient_id": 27,
+    "doctor_id": 35,
+    "date": "2023-11-22",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 565,
+    "patient_id": 110,
+    "doctor_id": 20,
+    "date": "2023-11-22",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 566,
+    "patient_id": 13,
+    "doctor_id": 41,
+    "date": "2023-11-23",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 567,
+    "patient_id": 10,
+    "doctor_id": 38,
+    "date": "2023-11-25",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 568,
+    "patient_id": 182,
+    "doctor_id": 2,
+    "date": "2023-11-26",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 569,
+    "patient_id": 240,
+    "doctor_id": 46,
+    "date": "2023-11-27",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 570,
+    "patient_id": 72,
+    "doctor_id": 39,
+    "date": "2023-12-05",
+    "diagnosis": "Миома матки"
+  },
+  {
+    "id": 571,
+    "patient_id": 223,
+    "doctor_id": 48,
+    "date": "2023-12-06",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 572,
+    "patient_id": 229,
+    "doctor_id": 18,
+    "date": "2023-12-06",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 573,
+    "patient_id": 232,
+    "doctor_id": 4,
+    "date": "2023-12-07",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 574,
+    "patient_id": 4,
+    "doctor_id": 5,
+    "date": "2023-12-09",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 575,
+    "patient_id": 138,
+    "doctor_id": 22,
+    "date": "2023-12-09",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 576,
+    "patient_id": 137,
+    "doctor_id": 35,
+    "date": "2023-12-11",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 577,
+    "patient_id": 188,
+    "doctor_id": 5,
+    "date": "2023-12-11",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 578,
+    "patient_id": 68,
+    "doctor_id": 25,
+    "date": "2023-12-12",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 579,
+    "patient_id": 123,
+    "doctor_id": 33,
+    "date": "2023-12-16",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 580,
+    "patient_id": 227,
+    "doctor_id": 30,
+    "date": "2023-12-18",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 581,
+    "patient_id": 189,
+    "doctor_id": 1,
+    "date": "2023-12-20",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 582,
+    "patient_id": 116,
+    "doctor_id": 33,
+    "date": "2023-12-21",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 583,
+    "patient_id": 134,
+    "doctor_id": 29,
+    "date": "2023-12-22",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 584,
+    "patient_id": 227,
+    "doctor_id": 10,
+    "date": "2023-12-23",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 585,
+    "patient_id": 24,
+    "doctor_id": 27,
+    "date": "2023-12-23",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 586,
+    "patient_id": 155,
+    "doctor_id": 20,
+    "date": "2023-12-23",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 587,
+    "patient_id": 186,
+    "doctor_id": 19,
+    "date": "2023-12-25",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 588,
+    "patient_id": 252,
+    "doctor_id": 13,
+    "date": "2023-12-25",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 589,
+    "patient_id": 125,
+    "doctor_id": 41,
+    "date": "2023-12-26",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 590,
+    "patient_id": 112,
+    "doctor_id": 20,
+    "date": "2023-12-28",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 591,
+    "patient_id": 89,
+    "doctor_id": 5,
+    "date": "2023-12-29",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 592,
+    "patient_id": 3,
+    "doctor_id": 29,
+    "date": "2023-12-29",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 593,
+    "patient_id": 8,
+    "doctor_id": 45,
+    "date": "2023-12-30",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 594,
+    "patient_id": 264,
+    "doctor_id": 9,
+    "date": "2024-01-01",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 595,
+    "patient_id": 161,
+    "doctor_id": 47,
+    "date": "2024-01-01",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 596,
+    "patient_id": 143,
+    "doctor_id": 25,
+    "date": "2024-01-01",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 597,
+    "patient_id": 33,
+    "doctor_id": 4,
+    "date": "2024-01-02",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 598,
+    "patient_id": 189,
+    "doctor_id": 37,
+    "date": "2024-01-03",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 599,
+    "patient_id": 121,
+    "doctor_id": 14,
+    "date": "2024-01-03",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 600,
+    "patient_id": 273,
+    "doctor_id": 40,
+    "date": "2024-01-03",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 601,
+    "patient_id": 167,
+    "doctor_id": 1,
+    "date": "2024-01-04",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 602,
+    "patient_id": 233,
+    "doctor_id": 17,
+    "date": "2024-01-04",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 603,
+    "patient_id": 106,
+    "doctor_id": 8,
+    "date": "2024-01-06",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 604,
+    "patient_id": 148,
+    "doctor_id": 3,
+    "date": "2024-01-07",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 605,
+    "patient_id": 134,
+    "doctor_id": 22,
+    "date": "2024-01-08",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 606,
+    "patient_id": 140,
+    "doctor_id": 27,
+    "date": "2024-01-08",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 607,
+    "patient_id": 185,
+    "doctor_id": 39,
+    "date": "2024-01-09",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 608,
+    "patient_id": 169,
+    "doctor_id": 24,
+    "date": "2024-01-09",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 609,
+    "patient_id": 213,
+    "doctor_id": 27,
+    "date": "2024-01-12",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 610,
+    "patient_id": 153,
+    "doctor_id": 29,
+    "date": "2024-01-12",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 611,
+    "patient_id": 142,
+    "doctor_id": 26,
+    "date": "2024-01-13",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 612,
+    "patient_id": 150,
+    "doctor_id": 20,
+    "date": "2024-01-13",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 613,
+    "patient_id": 174,
+    "doctor_id": 16,
+    "date": "2024-01-19",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 614,
+    "patient_id": 234,
+    "doctor_id": 50,
+    "date": "2024-01-20",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 615,
+    "patient_id": 41,
+    "doctor_id": 16,
+    "date": "2024-01-20",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 616,
+    "patient_id": 117,
+    "doctor_id": 5,
+    "date": "2024-01-21",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 617,
+    "patient_id": 260,
+    "doctor_id": 34,
+    "date": "2024-01-22",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 618,
+    "patient_id": 103,
+    "doctor_id": 42,
+    "date": "2024-01-24",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 619,
+    "patient_id": 283,
+    "doctor_id": 20,
+    "date": "2024-01-28",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 620,
+    "patient_id": 168,
+    "doctor_id": 8,
+    "date": "2024-01-29",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 621,
+    "patient_id": 259,
+    "doctor_id": 47,
+    "date": "2024-01-30",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 622,
+    "patient_id": 210,
+    "doctor_id": 35,
+    "date": "2024-01-30",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 623,
+    "patient_id": 82,
+    "doctor_id": 49,
+    "date": "2024-01-31",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 624,
+    "patient_id": 144,
+    "doctor_id": 30,
+    "date": "2024-01-31",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 625,
+    "patient_id": 177,
+    "doctor_id": 45,
+    "date": "2024-02-01",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 626,
+    "patient_id": 35,
+    "doctor_id": 27,
+    "date": "2024-02-04",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 627,
+    "patient_id": 8,
+    "doctor_id": 42,
+    "date": "2024-02-05",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 628,
+    "patient_id": 62,
+    "doctor_id": 49,
+    "date": "2024-02-05",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 629,
+    "patient_id": 75,
+    "doctor_id": 14,
+    "date": "2024-02-05",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 630,
+    "patient_id": 13,
+    "doctor_id": 12,
+    "date": "2024-02-08",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 631,
+    "patient_id": 292,
+    "doctor_id": 37,
+    "date": "2024-02-09",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 632,
+    "patient_id": 152,
+    "doctor_id": 39,
+    "date": "2024-02-11",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 633,
+    "patient_id": 210,
+    "doctor_id": 35,
+    "date": "2024-02-11",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 634,
+    "patient_id": 104,
+    "doctor_id": 19,
+    "date": "2024-02-12",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 635,
+    "patient_id": 151,
+    "doctor_id": 17,
+    "date": "2024-02-13",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 636,
+    "patient_id": 246,
+    "doctor_id": 25,
+    "date": "2024-02-19",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 637,
+    "patient_id": 293,
+    "doctor_id": 45,
+    "date": "2024-02-19",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 638,
+    "patient_id": 100,
+    "doctor_id": 31,
+    "date": "2024-02-21",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 639,
+    "patient_id": 177,
+    "doctor_id": 49,
+    "date": "2024-02-22",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 640,
+    "patient_id": 282,
+    "doctor_id": 45,
+    "date": "2024-02-23",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 641,
+    "patient_id": 191,
+    "doctor_id": 10,
+    "date": "2024-02-23",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 642,
+    "patient_id": 100,
+    "doctor_id": 46,
+    "date": "2024-02-24",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 643,
+    "patient_id": 177,
+    "doctor_id": 14,
+    "date": "2024-02-25",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 644,
+    "patient_id": 118,
+    "doctor_id": 10,
+    "date": "2024-02-26",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 645,
+    "patient_id": 20,
+    "doctor_id": 7,
+    "date": "2024-02-26",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 646,
+    "patient_id": 97,
+    "doctor_id": 25,
+    "date": "2024-02-27",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 647,
+    "patient_id": 221,
+    "doctor_id": 21,
+    "date": "2024-03-01",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 648,
+    "patient_id": 205,
+    "doctor_id": 24,
+    "date": "2024-03-01",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 649,
+    "patient_id": 288,
+    "doctor_id": 34,
+    "date": "2024-03-01",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 650,
+    "patient_id": 84,
+    "doctor_id": 15,
+    "date": "2024-03-03",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 651,
+    "patient_id": 224,
+    "doctor_id": 35,
+    "date": "2024-03-04",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 652,
+    "patient_id": 257,
+    "doctor_id": 12,
+    "date": "2024-03-04",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 653,
+    "patient_id": 92,
+    "doctor_id": 28,
+    "date": "2024-03-05",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 654,
+    "patient_id": 125,
+    "doctor_id": 5,
+    "date": "2024-03-06",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 655,
+    "patient_id": 179,
+    "doctor_id": 24,
+    "date": "2024-03-08",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 656,
+    "patient_id": 299,
+    "doctor_id": 26,
+    "date": "2024-03-09",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 657,
+    "patient_id": 224,
+    "doctor_id": 34,
+    "date": "2024-03-09",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 658,
+    "patient_id": 58,
+    "doctor_id": 50,
+    "date": "2024-03-10",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 659,
+    "patient_id": 154,
+    "doctor_id": 29,
+    "date": "2024-03-11",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 660,
+    "patient_id": 254,
+    "doctor_id": 13,
+    "date": "2024-03-14",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 661,
+    "patient_id": 186,
+    "doctor_id": 8,
+    "date": "2024-03-15",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 662,
+    "patient_id": 89,
+    "doctor_id": 4,
+    "date": "2024-03-17",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 663,
+    "patient_id": 8,
+    "doctor_id": 20,
+    "date": "2024-03-19",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 664,
+    "patient_id": 283,
+    "doctor_id": 39,
+    "date": "2024-03-20",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 665,
+    "patient_id": 17,
+    "doctor_id": 31,
+    "date": "2024-03-20",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 666,
+    "patient_id": 10,
+    "doctor_id": 7,
+    "date": "2024-03-21",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 667,
+    "patient_id": 159,
+    "doctor_id": 28,
+    "date": "2024-03-21",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 668,
+    "patient_id": 59,
+    "doctor_id": 7,
+    "date": "2024-03-21",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 669,
+    "patient_id": 99,
+    "doctor_id": 37,
+    "date": "2024-03-23",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 670,
+    "patient_id": 80,
+    "doctor_id": 2,
+    "date": "2024-03-26",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 671,
+    "patient_id": 59,
+    "doctor_id": 13,
+    "date": "2024-03-27",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 672,
+    "patient_id": 180,
+    "doctor_id": 39,
+    "date": "2024-03-31",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 673,
+    "patient_id": 164,
+    "doctor_id": 22,
+    "date": "2024-03-31",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 674,
+    "patient_id": 225,
+    "doctor_id": 43,
+    "date": "2024-04-03",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 675,
+    "patient_id": 224,
+    "doctor_id": 8,
+    "date": "2024-04-03",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 676,
+    "patient_id": 171,
+    "doctor_id": 48,
+    "date": "2024-04-04",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 677,
+    "patient_id": 43,
+    "doctor_id": 16,
+    "date": "2024-04-04",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 678,
+    "patient_id": 29,
+    "doctor_id": 42,
+    "date": "2024-04-05",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 679,
+    "patient_id": 140,
+    "doctor_id": 7,
+    "date": "2024-04-05",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 680,
+    "patient_id": 171,
+    "doctor_id": 2,
+    "date": "2024-04-06",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 681,
+    "patient_id": 188,
+    "doctor_id": 31,
+    "date": "2024-04-09",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 682,
+    "patient_id": 16,
+    "doctor_id": 40,
+    "date": "2024-04-10",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 683,
+    "patient_id": 89,
+    "doctor_id": 32,
+    "date": "2024-04-12",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 684,
+    "patient_id": 3,
+    "doctor_id": 31,
+    "date": "2024-04-13",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 685,
+    "patient_id": 28,
+    "doctor_id": 30,
+    "date": "2024-04-13",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 686,
+    "patient_id": 31,
+    "doctor_id": 11,
+    "date": "2024-04-19",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 687,
+    "patient_id": 78,
+    "doctor_id": 7,
+    "date": "2024-04-21",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 688,
+    "patient_id": 29,
+    "doctor_id": 13,
+    "date": "2024-04-26",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 689,
+    "patient_id": 129,
+    "doctor_id": 12,
+    "date": "2024-05-01",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 690,
+    "patient_id": 166,
+    "doctor_id": 35,
+    "date": "2024-05-03",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 691,
+    "patient_id": 24,
+    "doctor_id": 26,
+    "date": "2024-05-03",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 692,
+    "patient_id": 282,
+    "doctor_id": 12,
+    "date": "2024-05-03",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 693,
+    "patient_id": 176,
+    "doctor_id": 24,
+    "date": "2024-05-04",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 694,
+    "patient_id": 46,
+    "doctor_id": 19,
+    "date": "2024-05-06",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 695,
+    "patient_id": 288,
+    "doctor_id": 7,
+    "date": "2024-05-07",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 696,
+    "patient_id": 58,
+    "doctor_id": 28,
+    "date": "2024-05-08",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 697,
+    "patient_id": 86,
+    "doctor_id": 12,
+    "date": "2024-05-08",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 698,
+    "patient_id": 198,
+    "doctor_id": 29,
+    "date": "2024-05-08",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 699,
+    "patient_id": 264,
+    "doctor_id": 11,
+    "date": "2024-05-17",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 700,
+    "patient_id": 98,
+    "doctor_id": 16,
+    "date": "2024-05-19",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 701,
+    "patient_id": 52,
+    "doctor_id": 3,
+    "date": "2024-05-19",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 702,
+    "patient_id": 244,
+    "doctor_id": 47,
+    "date": "2024-05-21",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 703,
+    "patient_id": 244,
+    "doctor_id": 47,
+    "date": "2024-05-21",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 704,
+    "patient_id": 163,
+    "doctor_id": 23,
+    "date": "2024-05-21",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 705,
+    "patient_id": 92,
+    "doctor_id": 3,
+    "date": "2024-05-21",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 706,
+    "patient_id": 206,
+    "doctor_id": 19,
+    "date": "2024-05-23",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 707,
+    "patient_id": 128,
+    "doctor_id": 2,
+    "date": "2024-05-23",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 708,
+    "patient_id": 24,
+    "doctor_id": 18,
+    "date": "2024-05-29",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 709,
+    "patient_id": 252,
+    "doctor_id": 24,
+    "date": "2024-05-29",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 710,
+    "patient_id": 82,
+    "doctor_id": 40,
+    "date": "2024-05-29",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 711,
+    "patient_id": 29,
+    "doctor_id": 33,
+    "date": "2024-05-31",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 712,
+    "patient_id": 152,
+    "doctor_id": 36,
+    "date": "2024-06-02",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 713,
+    "patient_id": 142,
+    "doctor_id": 12,
+    "date": "2024-06-02",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 714,
+    "patient_id": 283,
+    "doctor_id": 23,
+    "date": "2024-06-04",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 715,
+    "patient_id": 80,
+    "doctor_id": 22,
+    "date": "2024-06-04",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 716,
+    "patient_id": 77,
+    "doctor_id": 15,
+    "date": "2024-06-08",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 717,
+    "patient_id": 259,
+    "doctor_id": 19,
+    "date": "2024-06-08",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 718,
+    "patient_id": 102,
+    "doctor_id": 47,
+    "date": "2024-06-12",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 719,
+    "patient_id": 71,
+    "doctor_id": 31,
+    "date": "2024-06-13",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 720,
+    "patient_id": 222,
+    "doctor_id": 21,
+    "date": "2024-06-14",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 721,
+    "patient_id": 102,
+    "doctor_id": 27,
+    "date": "2024-06-15",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 722,
+    "patient_id": 151,
+    "doctor_id": 31,
+    "date": "2024-06-15",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 723,
+    "patient_id": 192,
+    "doctor_id": 40,
+    "date": "2024-06-16",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 724,
+    "patient_id": 209,
+    "doctor_id": 35,
+    "date": "2024-06-16",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 725,
+    "patient_id": 239,
+    "doctor_id": 14,
+    "date": "2024-06-17",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 726,
+    "patient_id": 201,
+    "doctor_id": 30,
+    "date": "2024-06-20",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 727,
+    "patient_id": 110,
+    "doctor_id": 4,
+    "date": "2024-06-20",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 728,
+    "patient_id": 230,
+    "doctor_id": 21,
+    "date": "2024-06-21",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 729,
+    "patient_id": 110,
+    "doctor_id": 35,
+    "date": "2024-06-21",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 730,
+    "patient_id": 285,
+    "doctor_id": 4,
+    "date": "2024-06-23",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 731,
+    "patient_id": 186,
+    "doctor_id": 32,
+    "date": "2024-06-26",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 732,
+    "patient_id": 131,
+    "doctor_id": 11,
+    "date": "2024-06-27",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 733,
+    "patient_id": 267,
+    "doctor_id": 25,
+    "date": "2024-06-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 734,
+    "patient_id": 72,
+    "doctor_id": 42,
+    "date": "2024-06-29",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 735,
+    "patient_id": 74,
+    "doctor_id": 11,
+    "date": "2024-06-30",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 736,
+    "patient_id": 275,
+    "doctor_id": 28,
+    "date": "2024-07-01",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 737,
+    "patient_id": 21,
+    "doctor_id": 6,
+    "date": "2024-07-01",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 738,
+    "patient_id": 201,
+    "doctor_id": 18,
+    "date": "2024-07-02",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 739,
+    "patient_id": 13,
+    "doctor_id": 20,
+    "date": "2024-07-03",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 740,
+    "patient_id": 56,
+    "doctor_id": 43,
+    "date": "2024-07-04",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 741,
+    "patient_id": 68,
+    "doctor_id": 11,
+    "date": "2024-07-05",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 742,
+    "patient_id": 285,
+    "doctor_id": 26,
+    "date": "2024-07-06",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 743,
+    "patient_id": 119,
+    "doctor_id": 35,
+    "date": "2024-07-07",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 744,
+    "patient_id": 294,
+    "doctor_id": 7,
+    "date": "2024-07-08",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 745,
+    "patient_id": 223,
+    "doctor_id": 35,
+    "date": "2024-07-08",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 746,
+    "patient_id": 133,
+    "doctor_id": 46,
+    "date": "2024-07-08",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 747,
+    "patient_id": 44,
+    "doctor_id": 6,
+    "date": "2024-07-11",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 748,
+    "patient_id": 288,
+    "doctor_id": 6,
+    "date": "2024-07-12",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 749,
+    "patient_id": 21,
+    "doctor_id": 22,
+    "date": "2024-07-12",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 750,
+    "patient_id": 217,
+    "doctor_id": 14,
+    "date": "2024-07-13",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 751,
+    "patient_id": 286,
+    "doctor_id": 43,
+    "date": "2024-07-13",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 752,
+    "patient_id": 276,
+    "doctor_id": 9,
+    "date": "2024-07-14",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 753,
+    "patient_id": 219,
+    "doctor_id": 48,
+    "date": "2024-07-14",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 754,
+    "patient_id": 235,
+    "doctor_id": 23,
+    "date": "2024-07-15",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 755,
+    "patient_id": 165,
+    "doctor_id": 48,
+    "date": "2024-07-16",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 756,
+    "patient_id": 32,
+    "doctor_id": 48,
+    "date": "2024-07-16",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 757,
+    "patient_id": 41,
+    "doctor_id": 39,
+    "date": "2024-07-18",
+    "diagnosis": "Эндометриоз"
+  },
+  {
+    "id": 758,
+    "patient_id": 72,
+    "doctor_id": 30,
+    "date": "2024-07-18",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 759,
+    "patient_id": 287,
+    "doctor_id": 19,
+    "date": "2024-07-22",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 760,
+    "patient_id": 81,
+    "doctor_id": 6,
+    "date": "2024-07-23",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 761,
+    "patient_id": 160,
+    "doctor_id": 8,
+    "date": "2024-07-23",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 762,
+    "patient_id": 24,
+    "doctor_id": 30,
+    "date": "2024-07-24",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 763,
+    "patient_id": 209,
+    "doctor_id": 48,
+    "date": "2024-07-24",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 764,
+    "patient_id": 213,
+    "doctor_id": 18,
+    "date": "2024-07-26",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 765,
+    "patient_id": 60,
+    "doctor_id": 32,
+    "date": "2024-07-27",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 766,
+    "patient_id": 233,
+    "doctor_id": 5,
+    "date": "2024-07-27",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 767,
+    "patient_id": 87,
+    "doctor_id": 42,
+    "date": "2024-07-27",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 768,
+    "patient_id": 135,
+    "doctor_id": 13,
+    "date": "2024-07-29",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 769,
+    "patient_id": 265,
+    "doctor_id": 44,
+    "date": "2024-07-29",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 770,
+    "patient_id": 247,
+    "doctor_id": 8,
+    "date": "2024-07-30",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 771,
+    "patient_id": 71,
+    "doctor_id": 22,
+    "date": "2024-08-02",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 772,
+    "patient_id": 117,
+    "doctor_id": 3,
+    "date": "2024-08-05",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 773,
+    "patient_id": 269,
+    "doctor_id": 42,
+    "date": "2024-08-06",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 774,
+    "patient_id": 38,
+    "doctor_id": 49,
+    "date": "2024-08-08",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 775,
+    "patient_id": 174,
+    "doctor_id": 9,
+    "date": "2024-08-09",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 776,
+    "patient_id": 240,
+    "doctor_id": 10,
+    "date": "2024-08-11",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 777,
+    "patient_id": 37,
+    "doctor_id": 18,
+    "date": "2024-08-11",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 778,
+    "patient_id": 274,
+    "doctor_id": 3,
+    "date": "2024-08-13",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 779,
+    "patient_id": 289,
+    "doctor_id": 17,
+    "date": "2024-08-13",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 780,
+    "patient_id": 176,
+    "doctor_id": 42,
+    "date": "2024-08-14",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 781,
+    "patient_id": 248,
+    "doctor_id": 4,
+    "date": "2024-08-14",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 782,
+    "patient_id": 212,
+    "doctor_id": 15,
+    "date": "2024-08-15",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 783,
+    "patient_id": 30,
+    "doctor_id": 14,
+    "date": "2024-08-16",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 784,
+    "patient_id": 23,
+    "doctor_id": 41,
+    "date": "2024-08-18",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 785,
+    "patient_id": 144,
+    "doctor_id": 50,
+    "date": "2024-08-18",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 786,
+    "patient_id": 267,
+    "doctor_id": 26,
+    "date": "2024-08-19",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 787,
+    "patient_id": 11,
+    "doctor_id": 38,
+    "date": "2024-08-22",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 788,
+    "patient_id": 287,
+    "doctor_id": 12,
+    "date": "2024-08-22",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 789,
+    "patient_id": 4,
+    "doctor_id": 12,
+    "date": "2024-08-23",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 790,
+    "patient_id": 61,
+    "doctor_id": 14,
+    "date": "2024-08-23",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 791,
+    "patient_id": 124,
+    "doctor_id": 22,
+    "date": "2024-08-26",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 792,
+    "patient_id": 31,
+    "doctor_id": 19,
+    "date": "2024-08-28",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 793,
+    "patient_id": 241,
+    "doctor_id": 33,
+    "date": "2024-08-29",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 794,
+    "patient_id": 10,
+    "doctor_id": 15,
+    "date": "2024-09-01",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 795,
+    "patient_id": 79,
+    "doctor_id": 18,
+    "date": "2024-09-05",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 796,
+    "patient_id": 50,
+    "doctor_id": 35,
+    "date": "2024-09-07",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 797,
+    "patient_id": 163,
+    "doctor_id": 6,
+    "date": "2024-09-07",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 798,
+    "patient_id": 86,
+    "doctor_id": 44,
+    "date": "2024-09-08",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 799,
+    "patient_id": 76,
+    "doctor_id": 32,
+    "date": "2024-09-09",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 800,
+    "patient_id": 104,
+    "doctor_id": 24,
+    "date": "2024-09-09",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 801,
+    "patient_id": 20,
+    "doctor_id": 32,
+    "date": "2024-09-10",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 802,
+    "patient_id": 298,
+    "doctor_id": 28,
+    "date": "2024-09-10",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 803,
+    "patient_id": 152,
+    "doctor_id": 40,
+    "date": "2024-09-10",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 804,
+    "patient_id": 247,
+    "doctor_id": 16,
+    "date": "2024-09-12",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 805,
+    "patient_id": 138,
+    "doctor_id": 1,
+    "date": "2024-09-12",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 806,
+    "patient_id": 15,
+    "doctor_id": 34,
+    "date": "2024-09-12",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 807,
+    "patient_id": 266,
+    "doctor_id": 50,
+    "date": "2024-09-13",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 808,
+    "patient_id": 85,
+    "doctor_id": 26,
+    "date": "2024-09-16",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 809,
+    "patient_id": 152,
+    "doctor_id": 6,
+    "date": "2024-09-16",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 810,
+    "patient_id": 255,
+    "doctor_id": 21,
+    "date": "2024-09-17",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 811,
+    "patient_id": 37,
+    "doctor_id": 35,
+    "date": "2024-09-19",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 812,
+    "patient_id": 296,
+    "doctor_id": 1,
+    "date": "2024-09-20",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 813,
+    "patient_id": 196,
+    "doctor_id": 19,
+    "date": "2024-09-22",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 814,
+    "patient_id": 284,
+    "doctor_id": 42,
+    "date": "2024-09-23",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 815,
+    "patient_id": 82,
+    "doctor_id": 2,
+    "date": "2024-09-24",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 816,
+    "patient_id": 131,
+    "doctor_id": 19,
+    "date": "2024-09-26",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 817,
+    "patient_id": 282,
+    "doctor_id": 21,
+    "date": "2024-09-27",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 818,
+    "patient_id": 236,
+    "doctor_id": 38,
+    "date": "2024-09-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 819,
+    "patient_id": 45,
+    "doctor_id": 10,
+    "date": "2024-09-30",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 820,
+    "patient_id": 181,
+    "doctor_id": 21,
+    "date": "2024-10-01",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 821,
+    "patient_id": 230,
+    "doctor_id": 38,
+    "date": "2024-10-02",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 822,
+    "patient_id": 146,
+    "doctor_id": 18,
+    "date": "2024-10-03",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 823,
+    "patient_id": 164,
+    "doctor_id": 7,
+    "date": "2024-10-03",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 824,
+    "patient_id": 198,
+    "doctor_id": 45,
+    "date": "2024-10-03",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 825,
+    "patient_id": 224,
+    "doctor_id": 5,
+    "date": "2024-10-07",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 826,
+    "patient_id": 225,
+    "doctor_id": 48,
+    "date": "2024-10-07",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 827,
+    "patient_id": 59,
+    "doctor_id": 21,
+    "date": "2024-10-09",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 828,
+    "patient_id": 117,
+    "doctor_id": 28,
+    "date": "2024-10-10",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 829,
+    "patient_id": 197,
+    "doctor_id": 36,
+    "date": "2024-10-10",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 830,
+    "patient_id": 185,
+    "doctor_id": 3,
+    "date": "2024-10-12",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 831,
+    "patient_id": 115,
+    "doctor_id": 46,
+    "date": "2024-10-12",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 832,
+    "patient_id": 71,
+    "doctor_id": 11,
+    "date": "2024-10-13",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 833,
+    "patient_id": 283,
+    "doctor_id": 27,
+    "date": "2024-10-13",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 834,
+    "patient_id": 276,
+    "doctor_id": 12,
+    "date": "2024-10-18",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 835,
+    "patient_id": 250,
+    "doctor_id": 48,
+    "date": "2024-10-20",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 836,
+    "patient_id": 218,
+    "doctor_id": 47,
+    "date": "2024-10-21",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 837,
+    "patient_id": 132,
+    "doctor_id": 32,
+    "date": "2024-10-21",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 838,
+    "patient_id": 64,
+    "doctor_id": 20,
+    "date": "2024-10-22",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 839,
+    "patient_id": 220,
+    "doctor_id": 10,
+    "date": "2024-10-22",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 840,
+    "patient_id": 94,
+    "doctor_id": 26,
+    "date": "2024-10-24",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 841,
+    "patient_id": 183,
+    "doctor_id": 25,
+    "date": "2024-10-25",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 842,
+    "patient_id": 223,
+    "doctor_id": 11,
+    "date": "2024-10-28",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 843,
+    "patient_id": 148,
+    "doctor_id": 9,
+    "date": "2024-10-28",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 844,
+    "patient_id": 100,
+    "doctor_id": 12,
+    "date": "2024-10-28",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 845,
+    "patient_id": 264,
+    "doctor_id": 13,
+    "date": "2024-10-29",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 846,
+    "patient_id": 88,
+    "doctor_id": 21,
+    "date": "2024-10-29",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 847,
+    "patient_id": 237,
+    "doctor_id": 10,
+    "date": "2024-10-29",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 848,
+    "patient_id": 65,
+    "doctor_id": 35,
+    "date": "2024-10-30",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 849,
+    "patient_id": 20,
+    "doctor_id": 49,
+    "date": "2024-10-30",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 850,
+    "patient_id": 77,
+    "doctor_id": 21,
+    "date": "2024-11-01",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 851,
+    "patient_id": 275,
+    "doctor_id": 17,
+    "date": "2024-11-03",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 852,
+    "patient_id": 170,
+    "doctor_id": 43,
+    "date": "2024-11-03",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 853,
+    "patient_id": 291,
+    "doctor_id": 15,
+    "date": "2024-11-04",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 854,
+    "patient_id": 288,
+    "doctor_id": 43,
+    "date": "2024-11-04",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 855,
+    "patient_id": 139,
+    "doctor_id": 33,
+    "date": "2024-11-05",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 856,
+    "patient_id": 248,
+    "doctor_id": 22,
+    "date": "2024-11-06",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 857,
+    "patient_id": 238,
+    "doctor_id": 41,
+    "date": "2024-11-06",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 858,
+    "patient_id": 225,
+    "doctor_id": 35,
+    "date": "2024-11-10",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 859,
+    "patient_id": 164,
+    "doctor_id": 8,
+    "date": "2024-11-13",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 860,
+    "patient_id": 13,
+    "doctor_id": 2,
+    "date": "2024-11-14",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 861,
+    "patient_id": 63,
+    "doctor_id": 26,
+    "date": "2024-11-15",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 862,
+    "patient_id": 1,
+    "doctor_id": 6,
+    "date": "2024-11-16",
+    "diagnosis": "Сердечная недостаточность"
+  },
+  {
+    "id": 863,
+    "patient_id": 61,
+    "doctor_id": 4,
+    "date": "2024-11-16",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 864,
+    "patient_id": 27,
+    "doctor_id": 24,
+    "date": "2024-11-17",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 865,
+    "patient_id": 44,
+    "doctor_id": 27,
+    "date": "2024-11-17",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 866,
+    "patient_id": 164,
+    "doctor_id": 24,
+    "date": "2024-11-18",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 867,
+    "patient_id": 234,
+    "doctor_id": 30,
+    "date": "2024-11-24",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 868,
+    "patient_id": 2,
+    "doctor_id": 3,
+    "date": "2024-11-27",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 869,
+    "patient_id": 100,
+    "doctor_id": 42,
+    "date": "2024-11-30",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 870,
+    "patient_id": 155,
+    "doctor_id": 16,
+    "date": "2024-12-01",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 871,
+    "patient_id": 106,
+    "doctor_id": 17,
+    "date": "2024-12-02",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 872,
+    "patient_id": 115,
+    "doctor_id": 45,
+    "date": "2024-12-02",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 873,
+    "patient_id": 278,
+    "doctor_id": 32,
+    "date": "2024-12-04",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 874,
+    "patient_id": 177,
+    "doctor_id": 3,
+    "date": "2024-12-04",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 875,
+    "patient_id": 158,
+    "doctor_id": 43,
+    "date": "2024-12-04",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 876,
+    "patient_id": 238,
+    "doctor_id": 34,
+    "date": "2024-12-07",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 877,
+    "patient_id": 179,
+    "doctor_id": 9,
+    "date": "2024-12-09",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 878,
+    "patient_id": 70,
+    "doctor_id": 3,
+    "date": "2024-12-09",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 879,
+    "patient_id": 249,
+    "doctor_id": 42,
+    "date": "2024-12-10",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 880,
+    "patient_id": 45,
+    "doctor_id": 10,
+    "date": "2024-12-10",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 881,
+    "patient_id": 290,
+    "doctor_id": 5,
+    "date": "2024-12-11",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 882,
+    "patient_id": 135,
+    "doctor_id": 10,
+    "date": "2024-12-11",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 883,
+    "patient_id": 248,
+    "doctor_id": 15,
+    "date": "2024-12-13",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 884,
+    "patient_id": 53,
+    "doctor_id": 21,
+    "date": "2024-12-14",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 885,
+    "patient_id": 294,
+    "doctor_id": 25,
+    "date": "2024-12-14",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 886,
+    "patient_id": 160,
+    "doctor_id": 44,
+    "date": "2024-12-16",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 887,
+    "patient_id": 166,
+    "doctor_id": 48,
+    "date": "2024-12-16",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 888,
+    "patient_id": 152,
+    "doctor_id": 32,
+    "date": "2024-12-17",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 889,
+    "patient_id": 163,
+    "doctor_id": 5,
+    "date": "2024-12-17",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 890,
+    "patient_id": 180,
+    "doctor_id": 1,
+    "date": "2024-12-17",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 891,
+    "patient_id": 147,
+    "doctor_id": 2,
+    "date": "2024-12-21",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 892,
+    "patient_id": 64,
+    "doctor_id": 8,
+    "date": "2024-12-22",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 893,
+    "patient_id": 11,
+    "doctor_id": 1,
+    "date": "2024-12-23",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 894,
+    "patient_id": 300,
+    "doctor_id": 38,
+    "date": "2024-12-23",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 895,
+    "patient_id": 190,
+    "doctor_id": 5,
+    "date": "2024-12-23",
+    "diagnosis": "Инфаркт миокарда"
+  },
+  {
+    "id": 896,
+    "patient_id": 62,
+    "doctor_id": 26,
+    "date": "2024-12-24",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 897,
+    "patient_id": 39,
+    "doctor_id": 19,
+    "date": "2024-12-25",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 898,
+    "patient_id": 34,
+    "doctor_id": 16,
+    "date": "2024-12-25",
+    "diagnosis": "Тугоухость"
+  },
+  {
+    "id": 899,
+    "patient_id": 167,
+    "doctor_id": 30,
+    "date": "2024-12-28",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 900,
+    "patient_id": 154,
+    "doctor_id": 40,
+    "date": "2024-12-28",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 901,
+    "patient_id": 18,
+    "doctor_id": 2,
+    "date": "2024-12-29",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 902,
+    "patient_id": 87,
+    "doctor_id": 46,
+    "date": "2024-12-29",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 903,
+    "patient_id": 211,
+    "doctor_id": 34,
+    "date": "2024-12-30",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 904,
+    "patient_id": 38,
+    "doctor_id": 21,
+    "date": "2025-01-02",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 905,
+    "patient_id": 218,
+    "doctor_id": 35,
+    "date": "2025-01-02",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 906,
+    "patient_id": 247,
+    "doctor_id": 42,
+    "date": "2025-01-04",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 907,
+    "patient_id": 221,
+    "doctor_id": 13,
+    "date": "2025-01-05",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 908,
+    "patient_id": 91,
+    "doctor_id": 39,
+    "date": "2025-01-07",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 909,
+    "patient_id": 249,
+    "doctor_id": 47,
+    "date": "2025-01-10",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 910,
+    "patient_id": 291,
+    "doctor_id": 2,
+    "date": "2025-01-11",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 911,
+    "patient_id": 37,
+    "doctor_id": 23,
+    "date": "2025-01-11",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 912,
+    "patient_id": 278,
+    "doctor_id": 40,
+    "date": "2025-01-13",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 913,
+    "patient_id": 20,
+    "doctor_id": 18,
+    "date": "2025-01-14",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 914,
+    "patient_id": 255,
+    "doctor_id": 29,
+    "date": "2025-01-15",
+    "diagnosis": "Катаракта"
+  },
+  {
+    "id": 915,
+    "patient_id": 185,
+    "doctor_id": 30,
+    "date": "2025-01-15",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 916,
+    "patient_id": 153,
+    "doctor_id": 38,
+    "date": "2025-01-16",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 917,
+    "patient_id": 229,
+    "doctor_id": 9,
+    "date": "2025-01-18",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 918,
+    "patient_id": 142,
+    "doctor_id": 3,
+    "date": "2025-01-21",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 919,
+    "patient_id": 63,
+    "doctor_id": 30,
+    "date": "2025-01-21",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 920,
+    "patient_id": 180,
+    "doctor_id": 1,
+    "date": "2025-01-23",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 921,
+    "patient_id": 249,
+    "doctor_id": 30,
+    "date": "2025-01-23",
+    "diagnosis": "Гипотиреоз"
+  },
+  {
+    "id": 922,
+    "patient_id": 139,
+    "doctor_id": 1,
+    "date": "2025-01-24",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 923,
+    "patient_id": 49,
+    "doctor_id": 15,
+    "date": "2025-01-25",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 924,
+    "patient_id": 234,
+    "doctor_id": 23,
+    "date": "2025-01-29",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 925,
+    "patient_id": 189,
+    "doctor_id": 10,
+    "date": "2025-01-29",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 926,
+    "patient_id": 100,
+    "doctor_id": 20,
+    "date": "2025-01-31",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 927,
+    "patient_id": 7,
+    "doctor_id": 41,
+    "date": "2025-02-01",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 928,
+    "patient_id": 191,
+    "doctor_id": 16,
+    "date": "2025-02-03",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 929,
+    "patient_id": 293,
+    "doctor_id": 9,
+    "date": "2025-02-05",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 930,
+    "patient_id": 203,
+    "doctor_id": 29,
+    "date": "2025-02-06",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 931,
+    "patient_id": 80,
+    "doctor_id": 30,
+    "date": "2025-02-07",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 932,
+    "patient_id": 42,
+    "doctor_id": 17,
+    "date": "2025-02-08",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 933,
+    "patient_id": 19,
+    "doctor_id": 25,
+    "date": "2025-02-08",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 934,
+    "patient_id": 3,
+    "doctor_id": 8,
+    "date": "2025-02-12",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 935,
+    "patient_id": 284,
+    "doctor_id": 18,
+    "date": "2025-02-13",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 936,
+    "patient_id": 253,
+    "doctor_id": 5,
+    "date": "2025-02-13",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 937,
+    "patient_id": 298,
+    "doctor_id": 1,
+    "date": "2025-02-13",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 938,
+    "patient_id": 174,
+    "doctor_id": 18,
+    "date": "2025-02-15",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 939,
+    "patient_id": 60,
+    "doctor_id": 18,
+    "date": "2025-02-18",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 940,
+    "patient_id": 132,
+    "doctor_id": 42,
+    "date": "2025-02-18",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 941,
+    "patient_id": 157,
+    "doctor_id": 38,
+    "date": "2025-02-20",
+    "diagnosis": "Мигрень"
+  },
+  {
+    "id": 942,
+    "patient_id": 139,
+    "doctor_id": 43,
+    "date": "2025-02-20",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 943,
+    "patient_id": 26,
+    "doctor_id": 28,
+    "date": "2025-02-20",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 944,
+    "patient_id": 141,
+    "doctor_id": 12,
+    "date": "2025-02-22",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 945,
+    "patient_id": 31,
+    "doctor_id": 13,
+    "date": "2025-02-24",
+    "diagnosis": "Гипертоническая болезнь"
+  },
+  {
+    "id": 946,
+    "patient_id": 194,
+    "doctor_id": 35,
+    "date": "2025-02-24",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 947,
+    "patient_id": 62,
+    "doctor_id": 23,
+    "date": "2025-02-25",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 948,
+    "patient_id": 181,
+    "doctor_id": 47,
+    "date": "2025-02-25",
+    "diagnosis": "Глаукома"
+  },
+  {
+    "id": 949,
+    "patient_id": 185,
+    "doctor_id": 4,
+    "date": "2025-02-26",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 950,
+    "patient_id": 137,
+    "doctor_id": 48,
+    "date": "2025-02-26",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 951,
+    "patient_id": 281,
+    "doctor_id": 12,
+    "date": "2025-02-28",
+    "diagnosis": "Заболевания щитовидной железы"
+  },
+  {
+    "id": 952,
+    "patient_id": 82,
+    "doctor_id": 40,
+    "date": "2025-03-01",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 953,
+    "patient_id": 42,
+    "doctor_id": 43,
+    "date": "2025-03-07",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 954,
+    "patient_id": 228,
+    "doctor_id": 14,
+    "date": "2025-03-09",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 955,
+    "patient_id": 290,
+    "doctor_id": 28,
+    "date": "2025-03-10",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 956,
+    "patient_id": 166,
+    "doctor_id": 12,
+    "date": "2025-03-16",
+    "diagnosis": "Сахарный диабет"
+  },
+  {
+    "id": 957,
+    "patient_id": 171,
+    "doctor_id": 11,
+    "date": "2025-03-18",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 958,
+    "patient_id": 10,
+    "doctor_id": 43,
+    "date": "2025-03-21",
+    "diagnosis": "Атопический дерматит"
+  },
+  {
+    "id": 959,
+    "patient_id": 265,
+    "doctor_id": 27,
+    "date": "2025-03-22",
+    "diagnosis": "Ожирение"
+  },
+  {
+    "id": 960,
+    "patient_id": 20,
+    "doctor_id": 20,
+    "date": "2025-03-23",
+    "diagnosis": "Перелом костей конечностей"
+  },
+  {
+    "id": 961,
+    "patient_id": 60,
+    "doctor_id": 32,
+    "date": "2025-03-26",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 962,
+    "patient_id": 15,
+    "doctor_id": 10,
+    "date": "2025-03-27",
+    "diagnosis": "Рахит"
+  },
+  {
+    "id": 963,
+    "patient_id": 75,
+    "doctor_id": 21,
+    "date": "2025-03-28",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 964,
+    "patient_id": 110,
+    "doctor_id": 38,
+    "date": "2025-03-28",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 965,
+    "patient_id": 35,
+    "doctor_id": 39,
+    "date": "2025-03-30",
+    "diagnosis": "Воспалительные заболевания органов малого таза"
+  },
+  {
+    "id": 966,
+    "patient_id": 107,
+    "doctor_id": 22,
+    "date": "2025-03-30",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 967,
+    "patient_id": 49,
+    "doctor_id": 29,
+    "date": "2025-03-30",
+    "diagnosis": "Конъюнктивит"
+  },
+  {
+    "id": 968,
+    "patient_id": 220,
+    "doctor_id": 1,
+    "date": "2025-03-31",
+    "diagnosis": "Вегетососудистая дистония"
+  },
+  {
+    "id": 969,
+    "patient_id": 208,
+    "doctor_id": 44,
+    "date": "2025-04-02",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 970,
+    "patient_id": 229,
+    "doctor_id": 16,
+    "date": "2025-04-03",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 971,
+    "patient_id": 172,
+    "doctor_id": 3,
+    "date": "2025-04-06",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 972,
+    "patient_id": 294,
+    "doctor_id": 44,
+    "date": "2025-04-06",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 973,
+    "patient_id": 122,
+    "doctor_id": 8,
+    "date": "2025-04-08",
+    "diagnosis": "Ангина"
+  },
+  {
+    "id": 974,
+    "patient_id": 131,
+    "doctor_id": 7,
+    "date": "2025-04-08",
+    "diagnosis": "Гайморит"
+  },
+  {
+    "id": 975,
+    "patient_id": 178,
+    "doctor_id": 48,
+    "date": "2025-04-09",
+    "diagnosis": "Бронхит"
+  },
+  {
+    "id": 976,
+    "patient_id": 247,
+    "doctor_id": 21,
+    "date": "2025-04-09",
+    "diagnosis": "Аппендицит"
+  },
+  {
+    "id": 977,
+    "patient_id": 79,
+    "doctor_id": 13,
+    "date": "2025-04-12",
+    "diagnosis": "Гастрит"
+  },
+  {
+    "id": 978,
+    "patient_id": 73,
+    "doctor_id": 41,
+    "date": "2025-04-13",
+    "diagnosis": "Простатит"
+  },
+  {
+    "id": 979,
+    "patient_id": 57,
+    "doctor_id": 39,
+    "date": "2025-04-14",
+    "diagnosis": "Нарушение менструального цикла"
+  },
+  {
+    "id": 980,
+    "patient_id": 138,
+    "doctor_id": 25,
+    "date": "2025-04-14",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 981,
+    "patient_id": 132,
+    "doctor_id": 15,
+    "date": "2025-04-15",
+    "diagnosis": "Мочекаменная болезнь"
+  },
+  {
+    "id": 982,
+    "patient_id": 258,
+    "doctor_id": 34,
+    "date": "2025-04-16",
+    "diagnosis": "Остеохондроз позвоночника"
+  },
+  {
+    "id": 983,
+    "patient_id": 243,
+    "doctor_id": 7,
+    "date": "2025-04-18",
+    "diagnosis": "Отит"
+  },
+  {
+    "id": 984,
+    "patient_id": 15,
+    "doctor_id": 2,
+    "date": "2025-04-18",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 985,
+    "patient_id": 33,
+    "doctor_id": 9,
+    "date": "2025-04-19",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 986,
+    "patient_id": 286,
+    "doctor_id": 43,
+    "date": "2025-04-19",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 987,
+    "patient_id": 236,
+    "doctor_id": 48,
+    "date": "2025-04-19",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 988,
+    "patient_id": 11,
+    "doctor_id": 28,
+    "date": "2025-04-21",
+    "diagnosis": "Аденома предстательной железы"
+  },
+  {
+    "id": 989,
+    "patient_id": 235,
+    "doctor_id": 25,
+    "date": "2025-04-23",
+    "diagnosis": "Последствия инсульта"
+  },
+  {
+    "id": 990,
+    "patient_id": 134,
+    "doctor_id": 46,
+    "date": "2025-04-25",
+    "diagnosis": "Близорукость"
+  },
+  {
+    "id": 991,
+    "patient_id": 262,
+    "doctor_id": 20,
+    "date": "2025-04-25",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 992,
+    "patient_id": 200,
+    "doctor_id": 5,
+    "date": "2025-04-25",
+    "diagnosis": "Ишемическая болезнь сердца"
+  },
+  {
+    "id": 993,
+    "patient_id": 88,
+    "doctor_id": 20,
+    "date": "2025-04-28",
+    "diagnosis": "Грыжа брюшной полости"
+  },
+  {
+    "id": 994,
+    "patient_id": 278,
+    "doctor_id": 14,
+    "date": "2025-05-01",
+    "diagnosis": "Острая респираторная вирусная инфекция (ОРВИ)"
+  },
+  {
+    "id": 995,
+    "patient_id": 89,
+    "doctor_id": 23,
+    "date": "2025-05-03",
+    "diagnosis": "Острые инфекции (ветрянка, краснуха, корь)"
+  },
+  {
+    "id": 996,
+    "patient_id": 40,
+    "doctor_id": 20,
+    "date": "2025-05-05",
+    "diagnosis": "Варикозное расширение вен"
+  },
+  {
+    "id": 997,
+    "patient_id": 46,
+    "doctor_id": 23,
+    "date": "2025-05-05",
+    "diagnosis": "Бронхиальная астма"
+  },
+  {
+    "id": 998,
+    "patient_id": 5,
+    "doctor_id": 42,
+    "date": "2025-05-06",
+    "diagnosis": "Цистит"
+  },
+  {
+    "id": 999,
+    "patient_id": 139,
+    "doctor_id": 5,
+    "date": "2025-05-09",
+    "diagnosis": "Аритмия"
+  },
+  {
+    "id": 1000,
+    "patient_id": 295,
+    "doctor_id": 35,
+    "date": "2025-05-09",
+    "diagnosis": "Мочекаменная болезнь"
+  }
+]

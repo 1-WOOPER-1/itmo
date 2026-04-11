@@ -1,0 +1,196 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage[a4paper, left=1cm, right=1cm, top=1.27cm, bottom=1.27cm]{geometry}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{caption}
+
+\usepackage{minted}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\geometry{margin=2cm}
+
+
+\begin{document}
+
+
+
+\begin{center}
+    \textbf{Министерство науки и высшего образования Российской Федерации} \\
+    ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ \\
+    \textbf{НАЦИОНАЛЬНЫЙ ИССЛЕДОВАТЕЛЬСКИЙ УНИВЕРСИТЕТ ИТМО} \\
+
+    \vspace{70pt}
+
+    \textbf{Факультет безопасности информационных технологий} \\
+    
+    \vspace{30pt}
+
+    \textbf{Дисциплина:} \\
+    «Общая алгебра»
+    
+    \textbf{Отчёт по расчетно графической работе №1} \\
+    «Задание на RSA» \\
+    
+\end{center}
+
+\vspace{100pt}
+
+
+\begin{flushright}
+    Выполнил: \\
+    Пахомов Владимир Юрьевич, \\
+    студент группы N3250 \\
+
+    \includegraphics[height=2cm]{sign.png} \\
+    подпись \;\;\;\;\;\;\;\;\;\; \\
+
+    \vspace{40pt}
+
+
+    Проверил: \\
+    Тузиков Фёдор Николаевич \\
+\end{flushright}
+
+\vspace{120pt}
+
+\begin{center}
+    Санкт-Петербург, 2025г.
+\end{center}
+
+
+\newpage
+
+
+
+\begin{flushleft}
+    \textbf{1. Условие задачи. Вариант 24} \\
+    \hspace{1.25cm}Решить сравнение: $ x^{83} \equiv 2 $ (mod 989) \\
+\end{flushleft}
+
+\begin{flushleft}
+    \textbf{2. Решение:} \\
+    \hspace{1.25cm}Представим 989 как $ 23 \cdot 43 $. \\
+    \hspace{1.25cm}Тогда для решения задачи мы можем использовать китайскую теорему об остатках и решить систему: \\
+    \begin{equation}
+        \begin{cases}
+        x^{83} \equiv 2 \; (mod \; 23) \\
+        x^{83} \equiv 2 \; (mod \; 43) \\
+        \end{cases}
+    \end{equation}
+    \hspace{1.25cm}\textbf{2.1} Рассмотрим первое выражение: \\
+        \begin{center}
+            $ x^{83} \equiv 2 \; (mod \; 23) $ \\
+        \end{center}
+    \hspace{1.25cm}Используем малую теорему Ферма: \\
+        \begin{center}
+            $ x^{22} \equiv 1 \; (mod \; 23) $ \\
+        \end{center}
+    \hspace{1.25cm}Разделим 83 на 22: \\
+        \begin{center}
+            $ 83 \equiv 17 \; (mod \; 22) $ \\
+        \end{center}
+    \hspace{1.25cm}Значит $ x^{83} \equiv x^{17} \; (mod \; 23) $ и выражение упрощается до: \\ 
+        \begin{center}
+            $ x^{17} \equiv 2 \; (mod \; 23) $ \\
+        \end{center}
+    \hspace{1.25cm}Теперь нужно сократить степень. Для этого нужно возвести обе части в
+    такую степень k, что $ 17k \equiv 1 \; (mod \; 22) $. Простым перебором или
+    используя расширенный алгоримт Эвклида (решить $ 17k - 22m = 1 $) получаем $ k = 13 $.\\
+    \hspace{1.25cm}Возводим обе части в степень k: \\
+        \begin{center}
+            $ x \equiv 2^{13} \; (mod \; 23) $ \\
+        \end{center}
+    \hspace{1.25cm}Найдем $ 2^{13} $: \\
+        \begin{center}
+            Так как $ 2^8 \equiv 3 \; (mod \; 23) $, $ 2^4 \equiv 16 \; (mod \; 23) $, $ 2^1 \equiv 2 \; (mod \; 23) $, то \\
+            $ 2^{13} = 2^8 \cdot 2^4 \cdot 2^1 \equiv 3 \cdot 16 \cdot 2 = 96 \; (mod \; 23) $ \\
+            $ 2^{13} \equiv 4 \; (mod \; 23) $ \\
+        \end{center}
+    \hspace{1.25cm}После всех упрощений и преообразований первое выражение имееет вид: \\
+        \begin{center}
+            $ x \equiv 4 \; (mod \; 23) $ \\
+        \end{center}
+
+    
+    \hspace{1.25cm}\textbf{2.2} Аналогично решается и второе выражение: \\
+        \begin{center}
+            $ x^{83} \equiv 2 \; (mod \; 43) $ \\
+        \end{center}
+    \hspace{1.25cm}Используем малую теорему Ферма \\
+        \begin{center}
+            $ x^{42} \equiv 1 \; (mod \; 43) $ \\
+        \end{center}
+    \hspace{1.25cm}Разделим 83 на 42 \\
+        \begin{center}
+            $ 83 \equiv 41 \; (mod \; 42) $ \\
+        \end{center}
+    \hspace{1.25cm}Значит $ x^{83} \equiv x^{41} \; (mod \; 43) $ и выражение упрощается до\\ 
+        \begin{center}
+            $ x^{41} \equiv 2 \; (mod \; 43) $ \\
+        \end{center}
+    \hspace{1.25cm}Сокращаем степень. Для этого нужно возвести обе части в
+    такую степень k, что $ 41k \equiv 1 \; (mod \; 42) $. Простым перебором или
+    используя расширенный алгоритм Эвклида (решить $ 41k - 42m = 1 $) получаем $ k = 41 $.\\
+    \hspace{1.25cm}Возводим обе части в степень k: \\
+        \begin{center}
+            $ x \equiv 2^{41} \; (mod \; 43) $ \\
+        \end{center}
+    \hspace{1.25cm}Найдем $ 2^{41} $. По малой теореме Ферма
+     $ 2^{42} \equiv 1 \; (mod \; 43) $. Возведем обе части в степень -1 и получим 
+     $ 2^{41} \equiv 2^{-1} \; (mod \; 43) $. Чтобы найти $ 2^{-1} $ найдем такое $a$, что 
+     $ 2a \equiv 1 \; (mod \; 43) $. Решая расширенным алгоритмом Эвклида уравнение 
+     $ 2a - 43m = 1 $ \\
+     \hspace{1.25cm}$ 43 = 2 \cdot 21 + 1 => 1 = 43 - 2 \cdot 21 => a = -21 $ и переводя к положительному $ a = 43 - 21 = 22 $ получаем $ 2^{-1} = 22 $ \\
+    \hspace{1.25cm}После всех упрощений и преообразований второе выражение имееет вид: \\
+        \begin{center}
+            $ x \equiv 22 \; (mod \; 43) $ \\
+        \end{center}
+    
+
+    \hspace{1.25cm}\textbf{2.3} Теперь итоговая система имеет вид: \\
+        \begin{equation}
+        \begin{cases}
+             x \equiv 4 \; (mod \; 23) \\
+             x \equiv 22 \; (mod \; 43) \\
+        \end{cases}
+        \end{equation}
+    \hspace{1.25cm}Найдем x, используя КТО. Формулы: \\
+        \begin{equation}
+            \begin{cases}
+                x \equiv a_1 \; (mod \; n_1) \\
+                \vdots \\
+                x \equiv a_k \; (mod \; n_k) \\
+            \end{cases}
+        \end{equation}
+        \hspace{1.25cm}$ N = n_1 \cdot \dots n_k $ \\
+        \hspace{1.25cm}$ N_i = \frac{N}{n_i} $ \\
+        \hspace{1.25cm}$ N_i \cdot M_i \equiv 1 \; (mod \; n_i) $ \\
+        \hspace{1.25cm}$ x = \sum_{i=1}^k a_i N_i M_i \;\;\; (mod \; N) $ \\
+        \vspace{10pt}
+
+        \hspace{1.25cm}Подставляем: \\
+        \hspace{1.25cm}$ a_1, a_2 = 4, 22 $ \\
+        \hspace{1.25cm}$ n_1, n_2 = 23, 43 $ \\
+        \hspace{1.25cm}$ N = 23 \cdot 43 = 989 $ \\
+        \hspace{1.25cm}$ N_1, N_2 = \frac{N}{n_1}, \frac{N}{n_2} = 43, \; 23 $ \\
+        \hspace{1.25cm}$ N_1 \cdot M_1 \equiv 1 \; (mod \; 23) <=> 43 \cdot M_1 \equiv 1 \; (mod \; 23) => M_1 = 15 $ \\
+        \hspace{1.25cm}$ N_2 \cdot M_2 \equiv 1 \; (mod \; 43) <=> 23 \cdot M_2 \equiv 1 \; (mod \; 43) => M_2 = 15 $ \\
+        \hspace{1.25cm}$ x = (4 \cdot 43 \cdot 15 + 22 \cdot 23 \cdot 15) \; mod \; 989 = 10170 \; mod \; 989 = 280 $ \\ 
+        \vspace{10pt}
+
+        \hspace{1.25cm}\textbf{2.4} Окончательный ответ:
+        \begin{center}
+            $ x = 280 + 989k, \; k \in \mathbb{Z}  $ \\
+        \end{center}
+
+\end{flushleft}
+
+
+\end{document}
+
