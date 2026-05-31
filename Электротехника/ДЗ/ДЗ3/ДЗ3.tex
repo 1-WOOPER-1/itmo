@@ -1,0 +1,196 @@
+\documentclass[a4paper,12pt]{article}
+
+% Настройка кодировки и языка
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+% Математические пакеты
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{left=2cm,right=2cm,top=2cm,bottom=2cm}
+
+\usepackage{fontspec}
+\usepackage[T2A]{fontenc}
+\setmainfont{Liberation Serif}
+
+% Пакеты для таблиц и графиков
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\begin{document}
+
+\begin{flushleft}
+    Домашнее задание №3 \\
+    Пахомов Владимир Юрьевич 467036 \\
+\end{flushleft}
+
+\section{Исходные данные (Вариант 22)}
+Выполнить анализ переходного процесса в цепи первого порядка. Классическим и операторным методами расчета требуется определить
+искомые величины и построить их на интервале времени $[-\tau, 4\tau]$, где $\tau$ - постоянная времени цепи.\\
+
+Таблица 2.1: \\
+\begin{itemize}
+    \item ЭДС источника: $E = 135$ В.
+    \item Сопротивления резисторов: $R_1 = R_5 = R_8 = R_{10} = 2300$ Ом.
+    \item Индуктивность: $L_4 = 1{,}3$ Гн.
+    \item Искомые величины: ток $i_2(t)$, напряжение $u_1(t)$.
+    \item Состояние ключа при $t < 0$: разомкнут (Р). В момент $t=0$ ключ замыкается последовательно с $R_8$.
+\end{itemize}
+
+\begin{center}
+    \includegraphics[width=11cm]{schema.png}
+\end{center}
+
+\section{Классический метод расчета}
+
+\subsection{Режим до коммутации ($t < 0$)}
+При разомкнутом ключе ветвь с $R_{10}$ и $R_8$ обесточена. Цепь представляет собой последовательный контур $E, R_1, L_4, R_5$. В установившемся режиме индуктивность заменяется проводником.
+\begin{equation}
+    i_L(0_-) = i_2(0_-) = \frac{E}{R_1 + R_5} = \frac{135}{2300 + 2300} = 0{,}02935 \text{ А}
+\end{equation}
+Напряжение на $R_1$:
+\begin{equation}
+    u_1(0_-) = i_2(0_-) \cdot R_1 = 0{,}02935 \cdot 2300 = 67{,}5 \text{ В}
+\end{equation}
+
+\subsection{Установившийся режим после коммутации ($t \to \infty$)}
+После замыкания ключа ветвь с сопротивлением $R_{пр} = R_8 + R_{10} = 4600$ Ом подключается параллельно $R_5$.
+Эквивалентное сопротивление параллельного участка:
+\begin{equation}
+    R_p = \frac{R_5 \cdot R_{пр}}{R_5 + R_{пр}} = \frac{2300 \cdot 4600}{6900} \approx 1533{,}33 \text{ Ом}
+\end{equation}
+Общий ток и напряжение $u_1$:
+\begin{equation}
+    i_1(\infty) = \frac{E}{R_1 + R_p} = \frac{135}{2300 + 1533{,}33} \approx 0{,}03522 \text{ А}
+\end{equation}
+\begin{equation}
+    u_1(\infty) = i_1(\infty) \cdot R_1 = 0{,}03522 \cdot 2300 = 81 \text{ В}
+\end{equation}
+Ток в средней ветви:
+\begin{equation}
+    i_2(\infty) = \frac{E - u_1(\infty)}{R_5} = \frac{135 - 81}{2300} \approx 0{,}02348 \text{ А}
+\end{equation}
+
+\subsection{Определение постоянной времени $\tau$}
+Эквивалентное сопротивление относительно зажимов катушки $L_4$ при закороченном ЭДС:
+\begin{equation}
+    R_{экв} = R_5 + \frac{R_1 \cdot R_{пр}}{R_1 + R_{пр}} = 2300 + \frac{2300 \cdot 4600}{6900} = 3833{,}33 \text{ Ом}
+\end{equation}
+\begin{equation}
+    \tau = \frac{L_4}{R_{экв}} = \frac{1{,}3}{3833{,}33} \approx 0{,}339 \cdot 10^{-3} \text{ с} = 0{,}339 \text{ мс}
+\end{equation}
+
+\subsection{Законы изменения искомых величин}
+Используя формулу $x(t) = x(\infty) + [x(0_+) - x(\infty)] e^{-t/\tau}$:
+\begin{enumerate}
+    \item Для тока $i_2(t)$ ($i_2(0_+) = i_L(0_-)$):
+    \begin{equation}
+        i_2(t) = 23{,}48 + (29{,}35 - 23{,}48) e^{-2949t} = 23{,}48 + 5{,}87 e^{-2949t} \text{ [мА]}
+    \end{equation}
+    \item Для напряжения $u_1(t)$ (в момент $0_+$ напряжение скачком меняется до 90 В):
+    \begin{equation}
+        u_1(t) = 81 + (90 - 81) e^{-2949t} = 81 + 9 e^{-2949t} \text{ [В]}
+    \end{equation}
+\end{enumerate}
+
+\section{Операторный метод расчета}
+
+\subsection{Операторная схема замещения}
+Для расчета цепи после коммутации ($t > 0$) переходим в $p$-область (область комплексного переменного). 
+\begin{itemize}
+    \item Источник ЭДС $E$ заменяется на $E/p = 135/p$.
+    \item Индуктивность $L_4$ заменяется на сопротивление $pL_4 = 1{,}3p$ и последовательно включенный источник ЭДС $E_L = L_4 \cdot i_L(0_-) = 1{,}3 \cdot 0{,}02935 \approx 0{,}03815$ В, учитывающий начальное состояние.
+    \item Искомые токи и напряжения становятся функциями $I(p)$ и $U(p)$.
+\end{itemize}
+
+\subsection{Составление и решение уравнения}
+Воспользуемся методом узловых потенциалов. Пусть потенциал нижнего узла равен 0, а верхнего узла — $\varphi(p)$. Тогда уравнение по Китхгофу для узла примет вид:
+\begin{equation}
+    \frac{\varphi(p) - \frac{E}{p}}{R_1} + \frac{\varphi(p) + E_L}{pL_4 + R_5} + \frac{\varphi(p)}{R_{34}} = 0, \quad \text{где } R_{34} = R_8 + R_{10} = 4600 \text{ Ом.}
+\end{equation}
+Подставим численные значения ($R_1=2300, R_5=2300, R_{34}=4600$):
+\begin{equation}
+    \varphi(p) \left( \frac{1}{2300} + \frac{1}{4600} + \frac{1}{1{,}3p + 2300} \right) = \frac{135}{2300p} - \frac{0{,}03815}{1{,}3p + 2300}
+\end{equation}
+После алгебраических преобразований получаем выражение для потенциала:
+\begin{equation}
+    \varphi(p) = \frac{45p + 159230{,}7}{p(p + 2948{,}7)}
+\end{equation}
+
+\subsection{Нахождение искомых величин в $p$-области}
+1. Операторное изображение напряжения $u_1(p)$:
+\begin{equation}
+    u_1(p) = \frac{E}{p} - \varphi(p) = \frac{135}{p} - \frac{45p + 159230{,}7}{p(p + 2948{,}7)} = \frac{90p + 238843{,}8}{p(p + 2948{,}7)}
+\end{equation}
+2. Операторное изображение тока $i_2(p)$:
+\begin{equation}
+    i_2(p) = \frac{\varphi(p) + E_L}{pL_4 + R_5} = \frac{0{,}02348p + 69{,}24}{p(p + 2948{,}7)}
+\end{equation}
+
+\subsection{Переход к оригиналам}
+Разложим полученные дроби на простые слагаемые методом вычетов:
+\begin{equation}
+    u_1(p) = \frac{A}{p} + \frac{B}{p + 2949} \implies u_1(t) = 81 + 9e^{-2949t} \text{ [В]}
+\end{equation}
+\begin{equation}
+    i_2(p) = \frac{C}{p} + \frac{D}{p + 2949} \implies i_2(t) = 0{,}02348 + 0{,}00587e^{-2949t} \text{ [А]}
+\end{equation}
+
+\section{Вывод}
+Результаты, полученные классическим и операторным методами, полностью совпадают. Ток в индуктивности $i_2(t)$ в момент коммутации не изменяется скачком ($i_2(0_-) = i_2(0_+) = 29{,}35$ мА), что соответствует первому закону коммутации. Напряжение $u_1(t)$ претерпевает скачок с $67{,}5$ В до $90$ В в момент включения дополнительной нагрузки.
+
+
+\section{Результаты расчетов и графики}
+
+\begin{table}[h!]
+    \centering
+    \caption{Значения искомых величин на интервале $[-\tau; 4\tau]$}
+    \begin{tabularx}{\textwidth}{l|cc|ccccc}
+        \toprule
+        $t$ & $-\tau$ & $0_-$ & $0_+$ & $\tau$ & $2\tau$ & $3\tau$ & $4\tau$ \\
+        \midrule
+        $i_2(t)$, мА & 29,35 & 29,35 & 29,35 & 25,64 & 24,27 & 23,77 & 23,59 \\
+        $u_1(t)$, В & 67,5 & 67,5 & 90,0 & 84,31 & 82,22 & 81,45 & 81,16 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=12cm, height=7cm,
+    xlabel={$t/\tau$},
+    ylabel={$i_2(t)$, мА},
+    grid=major,
+    xmin=-1, xmax=4,
+    ymin=20, ymax=35,
+    legend pos=north east
+]
+\addplot[blue, thick, domain=-1:0] {29.35};
+\addplot[blue, thick, domain=0:4, samples=50] {23.48 + 5.87*exp(-x)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=12cm, height=7cm,
+    xlabel={$t/\tau$},
+    ylabel={$u_1(t)$, В},
+    grid=major,
+    xmin=-1, xmax=4,
+    ymin=60, ymax=100,
+    legend pos=north east
+]
+\addplot[red, thick, domain=-1:0] {67.5};
+\addplot[red, thick, dashed] coordinates {(0,67.5) (0,90)};
+\addplot[red, thick, domain=0:4, samples=50] {81 + 9*exp(-x)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\end{document}

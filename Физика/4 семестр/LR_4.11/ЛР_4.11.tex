@@ -1,0 +1,251 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec} % Пакет для работы со шрифтами в XeLaTeX
+\setmainfont{Liberation Serif} % Теперь эта команда сработает
+\usepackage[russian]{babel}
+
+% Математические пакеты
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{geometry}
+\geometry{left=3cm, right=1.5cm, top=2cm, bottom=2cm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+
+\geometry{top=2cm, bottom=2cm, left=2.5cm, right=1.5cm}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+% Шапка: Название университета и факультет
+\begin{center}
+    {\fontsize{14}{16}\selectfont \textbf{Университет ИТМО}} \\
+    {\fontsize{12}{14}\selectfont Физико-технический мегафакультет} \\
+    {\fontsize{12}{14}\selectfont Физический факультет}
+\end{center}
+
+% Место для логотипа (справа сверху)
+\begin{flushright}
+    \vspace{-3cm}
+    \Huge \textbf{ИТМО} % Плейсхолдер логотипа
+\end{flushright}
+
+\vspace{1.5cm}
+
+% Блок с информацией о студентах и проверке
+\noindent
+\begin{tabular}{ll}
+    Поток \makebox[5cm]{ФИЗ-3 Э БИТ 1.2.1} & К работе допущен\underline{\makebox[3cm]{}} \\[0.3cm]
+    Студенты: {\makebox[5.5cm]{Пахомов Владимир Юрьевич,}} & Работа выполнена\underline{\makebox[3cm]{}} \\
+    Сивков иван Александрович & \\
+    Преподаватель: Терещенко Георгий Викторович & Отчет принят\underline{\makebox[3.5cm]{}}
+\end{tabular}
+
+\vspace{2cm}
+
+% Заголовок работы
+\begin{center}
+    {\fontsize{18}{22}\selectfont \textbf{Рабочий протокол и отчет}} \\[0.5cm]
+    {\fontsize{18}{22}\selectfont \textbf{по лабораторной работе № 4.11}} \\[1.5cm]
+    
+    {\fontsize{16}{20}\selectfont \textbf{Определение основных характеристик дифракционной}} \\
+    {\fontsize{16}{20}\selectfont \textbf{решетки}}
+\end{center}
+
+
+
+
+% Дальнейшее содержание отчета (Цели, Задачи и т.д.)
+\section{Цель работы}
+1) Изучение характеристик дифракционной решетки.
+
+\section{Задачи, решаемые при выполнении работы}
+1) Экспериментальное определение угловой дисперсии решетки; \\
+2) Экспериментальное определение разрешающей способности решетки.
+
+\section{Объект исследования}
+Дифракционная решётка.
+
+\section{Метод экспериментального исследования}
+Метод основан на измерении угловых положений спектральных линий, полученных с помощью дифракционной решётки, для определения ее основных характеристик. При прохождении света через решётку происходит дифракция и интерференция волн, в результате чего излучение различных длин волн распространяется под разными углами. Измеряя углы дифракции для известных длин волн, определяют период решётки. На основе полученных данных рассчитываются угловая дисперсия и разрешающая способность решетки, а также число штрихов на единицу длины.
+
+
+
+
+
+
+
+
+\section{Рабочие формулы и исходные данные}
+
+\begin{equation}
+d \sin(\varphi) = m\lambda \tag{1}
+\end{equation}
+— условие возникновения интерференционных максимумов для дифракционной решетки.
+
+\begin{equation}
+n = \frac{1}{d} \tag{2}
+\end{equation}
+— число штрихов, нанесенных на 1 мм ширины решетки.
+
+\begin{equation}
+D = \frac{d\varphi}{d\lambda} = \frac{\Delta\varphi}{\Delta\lambda} \tag{3}
+\end{equation}
+— угловая дисперсия (экспериментальная).
+
+\begin{equation}
+D = \frac{d\varphi}{d\lambda} = \frac{m}{d \cos(\varphi)} \tag{4}
+\end{equation}
+— угловая дисперсия (теоретическая).
+
+\begin{equation}
+R = \frac{\lambda}{\delta\lambda} \tag{5}
+\end{equation}
+— разрешающая способность (определение).
+
+\begin{equation}
+R = mN \tag{6}
+\end{equation}
+— разрешающая способность дифракционной решетки.
+
+\begin{equation}
+\varphi = \frac{N_2 - N_1}{2} \tag{7}
+\end{equation}
+— угол дифракции.
+
+\vspace{0.5cm}
+\textbf{Исходные данные для длин волн (ртутная лампа):}
+\begin{itemize}
+    \item Зеленая линия: $\lambda_{зел} = 546,1$ нм
+    \item Синяя линия: $\lambda_{син} = 435,8$ нм
+\end{itemize}
+
+\section{Результаты прямых и косвенных измерений и их обработки}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ & $\varphi_1$ & $\varphi_2$ & $\varphi_3$ & $\varphi_{ср}$ & $m$ \\ \hline
+$N_1^{зел}$ & $18^\circ 26'$ & $19^\circ 17'$ & $18^\circ 57'$ & $18^\circ 53'$ & 1 \\ \hline
+$N_1^{син}$ & $15^\circ 32'$ & $15^\circ 15'$ & $15^\circ 28'$ & $15^\circ 25'$ & 1 \\ \hline
+$N_2^{зел}$ & $339^\circ 28'$ & $340^\circ 32'$ & $339^\circ 42'$ & $339^\circ 54'$ & -1 \\ \hline
+$N_2^{син}$ & $344^\circ 20'$ & $344^\circ 40'$ & $344^\circ 34'$ & $344^\circ 31'$ & -1 \\ \hline
+\end{tabular}
+
+\medskip
+Таблица 1 - Результаты измерений.
+\end{center}
+
+\noindent Рассчитаем углы дифракции по формуле (7):
+\begin{equation*}
+\varphi_{зел} = \frac{18^\circ 53' - (339^\circ 54' - 360^\circ)}{2} = \frac{18^\circ 53' - (-20^\circ 06')}{2} = 19^\circ 30'
+\end{equation*}
+\begin{equation*}
+\varphi_{син} = \frac{15^\circ 25' - (344^\circ 31' - 360^\circ)}{2} = \frac{15^\circ 25' - (-15^\circ 29')}{2} = 15^\circ 27'
+\end{equation*}
+
+\noindent Рассчитаем период решетки с помощью формулы (1) для зеленой линии ($\lambda = 546,1$ нм):
+\begin{equation*}
+d = \frac{m\lambda}{\sin(\varphi_{зел})} = \frac{546,1}{\sin(19^\circ 30')} = \frac{546,1}{0,3338} \approx 1636,0 \text{ нм}
+\end{equation*}
+
+\noindent Рассчитаем число штрихов на 1 мм с помощью формулы (2):
+\begin{equation*}
+n = \frac{1}{d} = \frac{1}{1636,0 \cdot 10^{-6} \text{ мм}} \approx 611,2 \text{ мм}^{-1}
+\end{equation*}
+
+\noindent Рассчитаем угловую дисперсию решетки по экспериментальным данным (формула 3):
+\begin{equation*}
+\Delta\varphi = \varphi_{зел} - \varphi_{син} = 19^\circ 30' - 15^\circ 27' = 4^\circ 03' = 243'
+\end{equation*}
+\begin{equation*}
+\Delta\lambda = \lambda_{зел} - \lambda_{син} = 546,1 - 435,8 = 110,3 \text{ нм}
+\end{equation*}
+\begin{equation*}
+D = \frac{243'}{110,3 \text{ нм}} \approx 2,20 \frac{'}{\text{нм}}
+\end{equation*}
+
+\noindent Рассчитаем угловую дисперсию решетки по теоретической формуле (4):
+\begin{equation*}
+D = \frac{m}{d \cos(\varphi)} = \frac{1}{1636,0 \cdot \cos(19^\circ 30')} = \frac{1}{1636,0 \cdot 0,9426} \approx 6,48 \cdot 10^{-4} \frac{\text{рад}}{\text{нм}} \approx 2,23 \frac{'}{\text{нм}}
+\end{equation*}
+Результаты вычислений хорошо согласуются.
+
+\noindent Рассчитаем разрешающую способность решетки по формуле (6), приняв ширину решетки $L = 300$ мм:
+\begin{equation*}
+N = n \cdot L = 611,2 \cdot 300 = 183360 \text{ (полное число штрихов)}
+\end{equation*}
+\begin{equation*}
+R = mN = 1 \cdot 183360 = 183360
+\end{equation*}
+
+
+
+
+\section{Расчет погрешностей}
+
+\noindent Относительная погрешность определения периода решетки $d$ находится путем дифференцирования выражения $d = \frac{m\lambda}{\sin(\varphi)}$:
+\begin{equation*}
+\ln(d) = \ln(m\lambda) - \ln(\sin\varphi)
+\end{equation*}
+\begin{equation*}
+\frac{\Delta d}{d} = \left| \frac{\partial}{\partial \varphi} \ln(\sin\varphi) \right| \cdot \Delta \varphi = \frac{\cos\varphi}{\sin\varphi} \Delta \varphi = \frac{\Delta \varphi}{\tan\varphi}
+\end{equation*}
+
+\noindent Подставим значения для зеленой линии ($\varphi = 19^\circ 30'$, $d = 1636,0$ нм):
+\begin{itemize}
+    \item $\tan(19^\circ 30') \approx 0,3541$
+    \item $\Delta \varphi = 1' \approx 2,91 \cdot 10^{-4}$ рад
+\end{itemize}
+
+\noindent Рассчитаем относительную погрешность:
+\begin{equation*}
+\varepsilon = \frac{\Delta d}{d} = \frac{2,91 \cdot 10^{-4}}{0,3541} \approx 0,000822 \approx 0,082\%
+\end{equation*}
+
+\noindent Рассчитаем абсолютную погрешность периода решетки:
+\begin{equation*}
+\Delta d = d \cdot \varepsilon = 1636,0 \cdot 0,000822 \approx 1,35 \text{ нм}
+\end{equation*}
+
+\noindent Переведем значения в миллиметры для итоговой записи (как в примере):
+\begin{itemize}
+    \item $d = 1636,0 \text{ нм} = 0,0016360 \text{ мм}$
+    \item $\Delta d = 1,35 \text{ нм} \approx 0,0000014 \text{ мм}$
+\end{itemize}
+
+\noindent \textbf{Итоговый результат:}
+\begin{equation*}
+d = (0,0016360 \pm 0,0000014) \text{ мм}
+\end{equation*}
+
+
+
+
+\section{Вывод}
+
+\noindent \textbf{Вывод:} В ходе лабораторной работы были изучены основные характеристики дифракционной решетки. Экспериментально измерены угловые положения спектральных линий ртутной лампы (зеленой и синей), на основе которых определен период решетки $d \approx 1636,0$ нм и число штрихов на единицу длины $n \approx 611,2 \text{ мм}^{-1}$.
+
+\medskip
+В результате расчетов была определена угловая дисперсия решетки двумя способами:
+\begin{enumerate}
+    \item По экспериментальным данным: $D_{эксп} \approx 2,20 \frac{'}{\text{нм}}$;
+    \item По теоретической формуле: $D_{теор} \approx 2,23 \frac{'}{\text{нм}}$.
+\end{enumerate}
+Полученные значения хорошо согласуются между собой (относительное расхождение составляет менее 1.5\%), что подтверждает корректность проведенных измерений и расчетов.
+
+\medskip
+Также была рассчитана разрешающая способность решетки ($R = 183360$ для первого порядка спектра при ширине $L = 300$ мм), что позволяет оценить высокую способность данной оптической системы разделять близкие по длине волны спектральные линии.
+
+\medskip
+Таким образом, результаты эксперимента подтверждают теоретические закономерности дифракции и интерференции света на дифракционной решетке.
+
+\vfill
+\begin{flushright}
+    4
+\end{flushright}
+
+
+\end{document}

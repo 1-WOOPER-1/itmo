@@ -1,0 +1,276 @@
+\documentclass[12pt,fleqn]{article}
+
+% --- Настройка шрифтов для XeLaTeX ---
+\usepackage{fontspec} 
+\usepackage[russian]{babel}
+
+% В XeLaTeX кодировка UTF-8 и поиск символов работают нативно.
+% Пакеты inputenc и cmap здесь НЕ НУЖНЫ и вызывают ошибки.
+
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{Liberation Mono}
+
+% --- Стандартные пакеты ---
+\usepackage[a4paper, left=1cm, right=1cm, top=1.27cm, bottom=1.27cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+
+\onehalfspacing
+
+
+\begin{document}
+
+\begin{flushleft}
+    Домашнее задание №1 \\
+    Пахомов Владимир Юрьевич 467036
+\end{flushleft}
+
+\begin{justify}
+    \section{Условие (Вариант 22)}
+    \begin{itemize}
+    \item Схема 2
+    \item $\uparrow J_5$ = 1.3 А
+    \item $\leftarrow E_2$ = 32 В
+    \item $\downarrow E_4$ = 11,5 В
+    \item $R_1 $ = 8 Ом
+    \item $R_2 $ = 9 Ом
+    \item $R_3 $ = 8 Ом
+    \item $R_4 $ = 5 Ом
+    \end{itemize}
+    а) скомпоновать схему согласно своему варианту; \\
+    б) найти все неизвестные токи, используя законы Кирхгофа; \\
+    в) найти все неизвестные токи, используя метод контурных токов; \\
+    г) найти все неизвестные токи, используя метод узловых напряжений; \\
+    д) Определить напряжение, приложенное к источнику тока.; \\
+    е) осуществить проверку, составив баланс мощностейж \\
+    ж) рассчитать ток любой ветви, содержащей источник ЭДС методом эквивалентных преобразований или методом эквивалентного генератора. \\
+
+\newpage
+
+    \section{Решение}
+    \subsection{а) Компоновка схемы}
+    \begin{center}
+        \includegraphics[height=10cm]{schema1.png}
+    \end{center}
+
+    \subsection{б) Законы Кирхгофа}
+    \begin{itemize}
+        \item $p^* = 5 \;- $ количество ветвей
+        \item $ p_\text{ит} = 1 \; - $ ветви с известными токами
+        \item $ p = p* - p_\text{ит} = 4 \; - $ количество неизвестных токов
+        \item $ q = 3 \; - $ количество узлов
+        \item $ n = p - (q - 1) = 2 \; - $ количество независимых контуров
+        \item $ m_I = q - 1 = 2 \; - $ количество уравнений для ЗКI
+        \item $ m_{II} = n = 2 \; - $ количество уравнений для ЗКII
+    \end{itemize}
+    Составим уравнения для узлов 1 и 3 и для двух контуров:
+    \begin{equation}
+        \begin{cases}
+            I_1 = I_2 + I_3 \\
+            I_2 + I_4 = J \\
+            E_2 = R_1I_3 + R_2I_1 \\
+            E_2 - E_4 = R_2I_1 + R_3I_2 - R_4I_4 \\
+        \end{cases}
+    \end{equation}
+    Подставив занчения сопротивлений и ЭДС получим:
+    \begin{equation}
+        \begin{cases}
+            I_1 = I_2 + I_3 \\
+            I_2 + I_4 = 1.3 \\
+            32 = 8I_3 + 9I_1 \\
+            32 - 11.5 = 9I_1 + 8I_2 - 5I_4 \\
+        \end{cases}
+    \end{equation}
+    Решив эту систему получаем ответ:
+    \begin{equation}
+        \begin{cases}
+            I_1 = 2.157 \; \text{А} \\
+            I_2 = 0.584 \; \text{А} \\
+            I_3 = 1.573 \; \text{А} \\
+            I_4 = 0.716 \; \text{А} \\
+        \end{cases}
+    \end{equation}
+    
+\newpage
+
+    \subsection{в) Метод контурных токов}
+
+    \begin{itemize}
+        \item $p^* = 5 \;- $ количество ветвей
+        \item $ p_\text{ит} = 1 \; - $ ветви с известными токами
+        \item $ p = p* - p_\text{ит} = 4 \; - $ количество неизвестных токов
+        \item $ q = 3 \; - $ количество узлов
+        \item $ n = p - (q - 1) = 2 \; - $ количество неизвестных контурных токов
+        \item $ m = p_\text{ит} = 1 \; - $ количество известных контурных токов
+    \end{itemize}
+
+    $I_{33} = J = 1.3 \text{А}$ \\
+    Составим систему уравнений:
+    \begin{equation}
+        \begin{cases}
+            R_{11}I_{11} + R_{12}I_{22} + R_{13}I_{33} = E_{11} \\
+            R_{21}I_{11} + R_{22}I_{22} + R_{23}I_{33} = E_{22} \\
+        \end{cases}
+    \end{equation}
+    Посчитав ЭДС и сопротивления контуров получаем:
+    \begin{equation}
+        \begin{cases}
+            (R_1 + R_2)I_{11} + R_2I_{22} + 0I_{33} = E_2 \\
+            R_2I_{11} + (R_2 + R_3 + R_4)I_{22} - R_4I_{33} = E_2 = E_4 \\
+        \end{cases}
+    \end{equation}
+    \begin{equation}
+        \begin{cases}
+            17I_{11} + 9I_{22} = 32 \\
+            9I_{11} + 22I_{22} - 5 \cdot 1.3 = 32 - 11.5 \\
+        \end{cases}
+    \end{equation}
+
+    Решив систему получим: \\
+    $ I_{11} \approx 1.573 \text{А} $ \\
+    $ I_{22} \approx 0.584 \text{А} $ \\
+
+    Тогда: \\
+    $ I_1 = I_{11} + I_{22} = 1.573 + 0.584 = 2.157 \text{А} $ \\
+    $ I_2 = I_{22} = 0.584 \text{А} $ \\
+    $ I_3 = I_{11} = 1.573 \text{А} $ \\
+    $ I_4 = I_{33} - I_{22} = 1.3 - 0.584 = 0.716 \text{А} $ \\
+
+    Ответ: \\
+    \begin{equation}
+        \begin{cases}
+            I_1 = 2.157 \; \text{А} \\
+            I_2 = 0.584 \; \text{А} \\
+            I_3 = 1.573 \; \text{А} \\
+            I_4 = 0.716 \; \text{А} \\
+        \end{cases}
+    \end{equation}
+
+\newpage
+
+\subsection{г) Метод узловых напряжений}
+    \begin{itemize}
+        \item $p^* = 5 \;- $ количество ветвей
+        \item $ p_\text{ит} = 1 \; - $ ветви с известными токами
+        \item $ p = p* - p_\text{ит} = 4 \; - $ количество неизвестных токов
+        \item $ q = 3 \; - $ количество узлов
+        \item $ l = q - 1 = 2 \; -$ количество узловых напряжений 
+    \end{itemize}
+
+    Произвольно обозначим узловые напряжения $U_{10}$ и $U_{20}$.
+    Примем узел 3 за заземленный, тогда его потенциал $\varphi_3 = 0$.
+    Узловые напряжения направлены от незаземленных узлов к заземленному.\\
+    Составим систему уравнений: \\
+    \begin{equation}
+        \begin{cases}
+            g_{11}U_{10} + g_{12}U_{20} = J_{11} \\
+            -g_{21}U_{10} + g_{22}U_{20} = J_{22} \\
+        \end{cases}
+    \end{equation}
+
+    \begin{itemize}
+        \item $ g_{11} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} \approx 0.3611 $
+        \item $ g_{22} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_4} \approx 0.4361 $
+        \item $ g_{12} = g_{21}= \frac{1}{R_1} + \frac{1}{R_2} \approx 0.2361 $
+        \item $ J_{11} = \frac{E_2}{R_2} = \approx 3.5556 \; \text{А}$
+        \item $ J_{22} = J - \frac{E_2}{R_2} = \approx -4.5556 \; \text{А}$
+    \end{itemize}
+
+    Подставив в систему получим: \\
+    \begin{equation}
+        \begin{cases}
+            0.3611U_{10} - 0.2361U_{20} = 3.5556 \\
+            -0.2361U_{10} + 0.4361U_{20} = -4.5556 \\        
+        \end{cases}
+    \end{equation}
+
+    После решения системы получаем значения $U_{10} \approx 4.669 \; \text{В} $ и $U_{20} \approx -7.919 \; \text{В} $.\\
+
+    Для определения токов воспользуемся законом ома $I = \frac{\sum \pm U + \sum \pm E}{\sum R}$:
+    \begin{equation}
+        \begin{cases}
+            I_1 = \frac{U_{20} - U_{10} - E_2}{R_2} \approx 2.157 \; \text{А} \\
+            I_2 = \frac{U_{10}}{R_3} \approx 0.584 \; \text{А} \\
+            I_3 = \frac{U_{10} - U_{20}}{R_1} \approx 1.574 \; \text{А} \\
+            I_4 = \frac{U_{20} + E_4}{R_4} \approx 0.716 \; \text{А} \\
+        \end{cases}
+    \end{equation}
+    
+
+    \newpage
+
+    \subsection{д) Определение напряжения, приложенного к источнику тока}
+    Возьмем третий (голубой) контур с источником тока $J$. Уравнение будет иметь ввид:
+    \[-U_J - I_4 \cdot R_4 - E_4 = 0 \Rightarrow U_J = -E_4 - I_4 \cdot R_4 \Rightarrow U_J = -15.08 \; \text{В} \]
+    Отрицательный знак означает, что потенциал нижнего узла (3) ниже потенциала верхнего узла (2) и направление напряжения противоположно выбранному.\\
+
+    \subsection{е) Определение мощностей источников}
+    Мощность источника ЭДС положительна, если направление тока через него совпадает
+    с направлением ЭДС. Мощность источника тока определяется через напряжение на его зажимах.
+
+    \begin{itemize}
+        \item $ P_{E_2} = E_2 \cdot I_1 = 69.024 \; \text{Вт} $
+        \item $ P_{E_4} = E_4 \cdot I_4 = 8.234 \; \text{Вт} $
+        \item $ P_J = U_J \cdot J = -10.296 \; \text{Вт} $
+    \end{itemize}
+
+    Суммарная мощность источников:
+    \[ P_\text{и} = P_{E_2} + P_{E_4} + P_J = 66.962 \; \text{Вт} \]
+
+    Мощность на резистивных элементах:
+    \begin{itemize}
+        \item $ P_{R_1} = R_1 \cdot I_3^2 = 19.816 \; \text{Вт} $
+        \item $ P_{R_2} = R_2 \cdot I_1^2 = 41.877 \; \text{Вт} $
+        \item $ P_{R_3} = R_3 \cdot I_2^2 = 2.728 \; \text{Вт} $
+        \item $ P_{R_4} = R_4 \cdot I_4^2 = 2.565 \; \text{Вт} $
+    \end{itemize}
+
+    Суммарная мощность потребителей:
+    \[ P_\text{п} = P_{R_1} + P_{R_2} + P_{R_3} + P_{R_4} = 66.986 \; \text{Вт} \]
+    
+    Условие равенства почти выполняется: $P_\text{и} = P_\text{п}$. Погрешность составляет
+    менее $1\%$. Значит можно сказать, что баланс мощностей сошелся.
+
+    \newpage
+
+    \subsection{ж) Рассчет тока ветви с источником $E_2$ методом эквивалентного генератора}
+
+    \begin{center}
+        \includegraphics[height=8cm]{schema2.png}
+    \end{center}
+
+    Для определения $E_\text{г}$ разомкнем ветвь с искомым током $I_1$. ЭДС генератора равна
+    напряжению холостого хода между узлами 2 и 1:
+
+    Примем $\varphi_3 = 0$
+    \begin{itemize}
+        \item Узел 1: $ \frac{\varphi_3}{R_3} + \frac{\varphi_1 - \varphi_2}{R_1} = 0 \Rightarrow \varphi_2 = 2\varphi_1 $
+        \item Узел 2: $ J = \frac{\varphi_2 - \varphi_1}{R_1} + \frac{\varphi_2 - (-E_4)}{R_4} \Rightarrow 1.3 = \frac{2\varphi_1 - \varphi_1}{8} + \frac{\varphi_2 - (-E_4)}{5} \Rightarrow \varphi_1 \approx -1.905 \; \text{В} \quad \varphi_2 \approx -3.81 \; \text{В} $
+    \end{itemize}
+
+    Напряжение холостого хода:
+    \[ E_\text{г} = U_{21xx} = \varphi_2 - \varphi_1 = -1.905 \; \text{В} \]
+
+    Для нахождения $R_\text{г}$ составим пассивную цепь. Источник ЭДС $E_4$ закорачиваем, источник тока $J$ обрываем.
+    Резисторы $R_3$ и $R_4$ оказываются соединенными последовательно и они параллельны $R_1$. Тогда:
+    \[ R_\text{г} = \frac{R_1(R_3 + R_4)}{R1 + R_3R_4} \approx 4.952 \; \text{Ом} \]
+
+    Для нахождения искомого $I_1$ составим цепь, содержащую параемтры генератора $E_\text{г}$ и $R_\text{г}$ и параметры удаленной ветви $E_2$ и $R_2$.
+    По второму закону Кирхгофа для контура: 
+    \[ (R_2 + R_\text{г}) \cdot I_1 = E_2 + E_\text{{г}} \Rightarrow I_1 = \frac{E_2 + E_\text{г}}{R_2 + R_\text{г}} \approx 2.157 \; \text{А} \]
+    Значение совпало с результатами других методов.
+
+\end{justify}
+
+
+\end{document}
