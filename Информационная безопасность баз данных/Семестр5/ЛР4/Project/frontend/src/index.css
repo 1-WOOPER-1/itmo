@@ -1,0 +1,284 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: "Roboto Flex", Roboto, ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Roboto Flex", Roboto, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "Roboto Mono", Consolas, monospace;
+
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+
+  --color-secondary: var(--secondary);
+  --color-on-secondary: var(--on-secondary);
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary-container: var(--on-secondary-container);
+
+  --color-tertiary: var(--tertiary);
+  --color-on-tertiary: var(--on-tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-on-tertiary-container: var(--on-tertiary-container);
+
+  --color-error: var(--error);
+  --color-on-error: var(--on-error);
+  --color-error-container: var(--error-container);
+  --color-on-error-container: var(--on-error-container);
+
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-surface-dim: var(--surface-dim);
+  --color-surface-bright: var(--surface-bright);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-inverse-surface: var(--inverse-surface);
+  --color-inverse-on-surface: var(--inverse-on-surface);
+  --color-inverse-primary: var(--inverse-primary);
+  --color-scrim: var(--scrim);
+
+  --color-bg: var(--surface);
+  --color-text: var(--on-surface-variant);
+  --color-text-h: var(--on-surface);
+  --color-border: var(--outline-variant);
+  --color-accent: var(--primary);
+  --color-accent-bg: var(--primary-container);
+  --color-accent-border: var(--primary);
+  --color-code-bg: var(--surface-container);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.75rem;
+  --radius-2xl: 2rem;
+
+  --shadow-sm: 0 1px 2px var(--shadow-tint);
+  --shadow-md: 0 4px 16px var(--shadow-tint);
+  --shadow-lg: 0 12px 32px var(--shadow-tint);
+}
+
+:root {
+  color-scheme: light;
+
+  --primary: oklch(0.47 0.21 262);
+  --on-primary: oklch(0.99 0.01 262);
+  --primary-container: oklch(0.88 0.07 262);
+  --on-primary-container: oklch(0.2 0.08 262);
+
+  --secondary: oklch(0.42 0.07 278);
+  --on-secondary: oklch(0.99 0.01 278);
+  --secondary-container: oklch(0.9 0.04 278);
+  --on-secondary-container: oklch(0.22 0.05 278);
+
+  --tertiary: oklch(0.5 0.13 200);
+  --on-tertiary: oklch(0.99 0.01 200);
+  --tertiary-container: oklch(0.9 0.05 200);
+  --on-tertiary-container: oklch(0.2 0.05 200);
+
+  --error: oklch(0.52 0.2 27);
+  --on-error: oklch(0.99 0.01 27);
+  --error-container: oklch(0.9 0.05 27);
+  --on-error-container: oklch(0.28 0.1 27);
+
+  --surface: oklch(0.98 0.012 262);
+  --surface-dim: oklch(0.91 0.018 262);
+  --surface-bright: oklch(0.995 0.006 262);
+  --surface-container-lowest: oklch(1 0 0);
+  --surface-container-low: oklch(0.96 0.014 262);
+  --surface-container: oklch(0.94 0.018 262);
+  --surface-container-high: oklch(0.92 0.022 262);
+  --surface-container-highest: oklch(0.89 0.026 262);
+  --on-surface: oklch(0.18 0.035 262);
+  --on-surface-variant: oklch(0.4 0.03 262);
+
+  --outline: oklch(0.54 0.03 262);
+  --outline-variant: oklch(0.82 0.025 262);
+  --inverse-surface: oklch(0.22 0.03 262);
+  --inverse-on-surface: oklch(0.94 0.015 262);
+  --inverse-primary: oklch(0.78 0.12 262);
+  --scrim: oklch(0.18 0.03 262 / 0.45);
+  --shadow-tint: oklch(0.28 0.08 262 / 0.14);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    color-scheme: dark;
+
+    --primary: oklch(0.78 0.13 262);
+    --on-primary: oklch(0.2 0.08 262);
+    --primary-container: oklch(0.36 0.15 262);
+    --on-primary-container: oklch(0.9 0.05 262);
+
+    --secondary: oklch(0.78 0.05 278);
+    --on-secondary: oklch(0.2 0.04 278);
+    --secondary-container: oklch(0.3 0.05 278);
+    --on-secondary-container: oklch(0.9 0.03 278);
+
+    --tertiary: oklch(0.8 0.09 200);
+    --on-tertiary: oklch(0.18 0.04 200);
+    --tertiary-container: oklch(0.32 0.07 200);
+    --on-tertiary-container: oklch(0.9 0.04 200);
+
+    --error: oklch(0.75 0.14 27);
+    --on-error: oklch(0.24 0.08 27);
+    --error-container: oklch(0.32 0.1 27);
+    --on-error-container: oklch(0.92 0.04 27);
+
+    --surface: oklch(0.17 0.028 262);
+    --surface-dim: oklch(0.14 0.024 262);
+    --surface-bright: oklch(0.28 0.032 262);
+    --surface-container-lowest: oklch(0.13 0.022 262);
+    --surface-container-low: oklch(0.2 0.03 262);
+    --surface-container: oklch(0.23 0.032 262);
+    --surface-container-high: oklch(0.27 0.034 262);
+    --surface-container-highest: oklch(0.31 0.036 262);
+    --on-surface: oklch(0.93 0.016 262);
+    --on-surface-variant: oklch(0.76 0.03 262);
+
+    --outline: oklch(0.64 0.03 262);
+    --outline-variant: oklch(0.34 0.03 262);
+    --inverse-surface: oklch(0.92 0.016 262);
+    --inverse-on-surface: oklch(0.22 0.03 262);
+    --inverse-primary: oklch(0.47 0.21 262);
+    --scrim: oklch(0.08 0.02 262 / 0.55);
+    --shadow-tint: oklch(0.08 0.04 262 / 0.45);
+  }
+}
+
+.dark {
+  color-scheme: dark;
+
+  --primary: oklch(0.78 0.13 262);
+  --on-primary: oklch(0.2 0.08 262);
+  --primary-container: oklch(0.36 0.15 262);
+  --on-primary-container: oklch(0.9 0.05 262);
+
+  --secondary: oklch(0.78 0.05 278);
+  --on-secondary: oklch(0.2 0.04 278);
+  --secondary-container: oklch(0.3 0.05 278);
+  --on-secondary-container: oklch(0.9 0.03 278);
+
+  --tertiary: oklch(0.8 0.09 200);
+  --on-tertiary: oklch(0.18 0.04 200);
+  --tertiary-container: oklch(0.32 0.07 200);
+  --on-tertiary-container: oklch(0.9 0.04 200);
+
+  --error: oklch(0.75 0.14 27);
+  --on-error: oklch(0.24 0.08 27);
+  --error-container: oklch(0.32 0.1 27);
+  --on-error-container: oklch(0.92 0.04 27);
+
+  --surface: oklch(0.17 0.028 262);
+  --surface-dim: oklch(0.14 0.024 262);
+  --surface-bright: oklch(0.28 0.032 262);
+  --surface-container-lowest: oklch(0.13 0.022 262);
+  --surface-container-low: oklch(0.2 0.03 262);
+  --surface-container: oklch(0.23 0.032 262);
+  --surface-container-high: oklch(0.27 0.034 262);
+  --surface-container-highest: oklch(0.31 0.036 262);
+  --on-surface: oklch(0.93 0.016 262);
+  --on-surface-variant: oklch(0.76 0.03 262);
+
+  --outline: oklch(0.64 0.03 262);
+  --outline-variant: oklch(0.34 0.03 262);
+  --inverse-surface: oklch(0.92 0.016 262);
+  --inverse-on-surface: oklch(0.22 0.03 262);
+  --inverse-primary: oklch(0.47 0.21 262);
+  --scrim: oklch(0.08 0.02 262 / 0.55);
+  --shadow-tint: oklch(0.08 0.04 262 / 0.45);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    font-size: 18px;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+    color: var(--on-surface-variant);
+    background: var(--surface);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  body {
+    margin: 0;
+    min-height: 100svh;
+    background: var(--surface);
+    color: var(--on-surface-variant);
+  }
+
+  /* #root {
+    width: 1126px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    border-inline: 1px solid var(--outline-variant);
+    background: var(--surface);
+  } */
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--on-surface);
+    letter-spacing: -0.03em;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 2rem 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+      font-size: 2.25rem;
+      margin: 1.25rem 0;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    line-height: 1.35;
+    padding: 0.2em 0.45em;
+    border-radius: var(--radius-sm);
+    color: var(--on-surface);
+    background: var(--surface-container);
+  }
+}

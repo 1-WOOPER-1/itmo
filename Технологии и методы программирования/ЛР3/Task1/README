@@ -1,0 +1,8 @@
+# 1. Собираем secur в один бинарный файл
+pyinstaller --onefile --windowed secur.py
+
+# 2. Собираем sys_doc в один бинарный файл
+pyinstaller --onefile --windowed sys_doc.py
+
+# 3. Копируем готовые исполняемые файлы в текущую рабочую папку
+cp dist/secur dist/sys_doc .

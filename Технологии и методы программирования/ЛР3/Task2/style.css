@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Consolas", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    padding: 0.5rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+td {
+    position: relative;
+}
+
+#cursor {
+    position: absolute;
+    top: 2px;
+    background-color: white;
+    width: 0.5rem;
+    height: 1.1rem;
+    z-index: 100;
+    display: inline-block;
+    animation: blink 0.8s infinite;
+    vertical-align: text-bottom;
+}
+
+#loading-surface {
+    position: fixed;
+    inset: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+#loading-label {
+    position: fixed;
+    top: calc(100vh / 2 - 2.5rem);
+    left: calc(100vw / 2 - 4rem);
+}
+
+#loading-label::after {
+    content: ".";
+    animation: dots 2s infinite;
+}
+
+@keyframes dots {
+    0% {
+        content: "";
+    }
+    33% {
+        content: ".";
+    }
+    66% {
+        content: "..";
+    }
+    100% {
+        content: "...";
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
